@@ -1,0 +1,3558 @@
+[
+    {
+        "data": "26/08/2026 09:18:25",
+        "ip": "10.30.0.1",
+        "impressora": "SEMSA - UBS Santaria (Recepção 2) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:28",
+        "ip": "10.19.0.2",
+        "impressora": "SEMSA - Farmácia Municipal (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:29",
+        "ip": "10.4.0.2",
+        "impressora": "SMASH - DEHAB (Kyocera TASKalfa 306ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:35",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:41",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:41",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:44",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:44",
+        "ip": "10.43.0.1",
+        "impressora": "SEMED - CMAE-TEA (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:44",
+        "ip": "10.48.0.1",
+        "impressora": "SEMED - E.M. Maria Elisa Cruz (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:48",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:52",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:54",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:18:57",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 09:56:21",
+        "ip": "10.55.0.1",
+        "impressora": "SEMED - Polo Universitário (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 11:41:40",
+        "ip": "10.17.0.3",
+        "impressora": "SEMSA - Hospital Municipal (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 11:57:51",
+        "ip": "10.32.0.1",
+        "impressora": "SEMED - CMEI Maria da Luz Christo Lima (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 11:58:02",
+        "ip": "10.6.0.1",
+        "impressora": "SEMMA - Administração (Kyocera TASKalfa 356ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 13:57:55",
+        "ip": "10.31.0.92",
+        "impressora": "Epson L3250",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/08/2026 13:58:06",
+        "ip": "10.16.0.39",
+        "impressora": "Ricoh P 311",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 09:37:53",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 09:37:56",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 09:37:59",
+        "ip": "10.4.0.2",
+        "impressora": "SMASH - DEHAB (Kyocera TASKalfa 306ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 09:42:32",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 09:42:35",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 09:42:38",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 09:50:33",
+        "ip": "10.19.0.2",
+        "impressora": "SEMSA - Farmácia Municipal (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 09:52:41",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 10:49:34",
+        "ip": "10.43.0.1",
+        "impressora": "SEMED - CMAE-TEA (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 11:01:34",
+        "ip": "10.52.0.6",
+        "impressora": "SEMED - Infraestrutura (Kyocera TASKalfa MZ3200i)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 11:01:47",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 11:01:49",
+        "ip": "10.30.0.1",
+        "impressora": "SEMSA - UBS Santaria (Recepção 2) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 11:01:56",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 11:06:06",
+        "ip": "10.48.0.1",
+        "impressora": "SEMED - E.M. Maria Elisa Cruz (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 11:21:24",
+        "ip": "10.0.0.2",
+        "impressora": "SEMAD - PAD (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 14:09:35",
+        "ip": "10.21.0.2",
+        "impressora": "SEMSA - Gabinete (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/08/2026 19:59:30",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:04:06",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:04:08",
+        "ip": "10.4.0.2",
+        "impressora": "SMASH - DEHAB (Kyocera TASKalfa 306ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:04:08",
+        "ip": "10.48.0.1",
+        "impressora": "SEMED - E.M. Maria Elisa Cruz (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:04:10",
+        "ip": "10.30.0.1",
+        "impressora": "SEMSA - UBS Santaria (Recepção 2) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:04:12",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:04:17",
+        "ip": "10.19.0.2",
+        "impressora": "SEMSA - Farmácia Municipal (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:04:18",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:04:29",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:04:30",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:04:31",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:04:33",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 00:24:30",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 03:39:20",
+        "ip": "10.29.0.4",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 2) (Brother HL-L5212DW)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 07:58:58",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 08:03:36",
+        "ip": "10.100.0.1",
+        "impressora": "SEMAD - Tecnologia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 08:03:47",
+        "ip": "10.21.0.2",
+        "impressora": "SEMSA - Gabinete (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 09:08:26",
+        "ip": "10.43.0.1",
+        "impressora": "SEMED - CMAE-TEA (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 12:17:46",
+        "ip": "10.4.0.5",
+        "impressora": "SMASH - Central (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/08/2026 14:14:52",
+        "ip": "10.0.0.2",
+        "impressora": "SEMAD - PAD (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/08/2026 00:03:03",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/08/2026 00:03:04",
+        "ip": "10.4.0.2",
+        "impressora": "SMASH - DEHAB (Kyocera TASKalfa 306ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/08/2026 00:03:08",
+        "ip": "10.30.0.1",
+        "impressora": "SEMSA - UBS Santaria (Recepção 2) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/08/2026 00:03:17",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/08/2026 00:03:29",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/08/2026 00:03:30",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/08/2026 00:09:41",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/08/2026 01:44:29",
+        "ip": "10.0.0.2",
+        "impressora": "SEMAD - PAD (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/08/2026 07:39:22",
+        "ip": "10.21.0.2",
+        "impressora": "SEMSA - Gabinete (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/08/2026 13:04:36",
+        "ip": "10.6.0.1",
+        "impressora": "SEMMA - Administração (Kyocera TASKalfa 356ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/08/2026 14:24:23",
+        "ip": "10.27.0.4",
+        "impressora": "SEMSA - UBS Vila São Pedro (Consultório 1) (Brother HL-L5212DW)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 00:03:40",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 00:03:42",
+        "ip": "10.4.0.2",
+        "impressora": "SMASH - DEHAB (Kyocera TASKalfa 306ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 00:03:46",
+        "ip": "10.30.0.1",
+        "impressora": "SEMSA - UBS Santaria (Recepção 2) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 00:03:48",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 00:03:55",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 00:04:09",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 00:09:15",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 00:18:39",
+        "ip": "10.0.0.2",
+        "impressora": "SEMAD - PAD (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 00:49:03",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 06:48:49",
+        "ip": "10.21.0.2",
+        "impressora": "SEMSA - Gabinete (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 11:38:49",
+        "ip": "10.4.0.5",
+        "impressora": "SMASH - Central (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "30/08/2026 11:38:54",
+        "ip": "10.6.0.1",
+        "impressora": "SEMMA - Administração (Kyocera TASKalfa 356ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 00:02:49",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 00:02:50",
+        "ip": "10.4.0.2",
+        "impressora": "SMASH - DEHAB (Kyocera TASKalfa 306ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 00:02:59",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 00:03:19",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 00:03:20",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 00:08:03",
+        "ip": "10.30.0.1",
+        "impressora": "SEMSA - UBS Santaria (Recepção 2) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 00:08:12",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 01:17:48",
+        "ip": "10.0.0.2",
+        "impressora": "SEMAD - PAD (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 06:27:40",
+        "ip": "10.63.0.1",
+        "impressora": "SEMED - CMEI Professora Jocimeri Florencio dos Reis (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 07:02:39",
+        "ip": "10.21.0.2",
+        "impressora": "SEMSA - Gabinete (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 07:17:57",
+        "ip": "10.43.0.1",
+        "impressora": "SEMED - CMAE-TEA (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 07:52:26",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 07:57:54",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 08:12:58",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 08:22:40",
+        "ip": "10.19.0.2",
+        "impressora": "SEMSA - Farmácia Municipal (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 08:27:31",
+        "ip": "10.48.0.1",
+        "impressora": "SEMED - E.M. Maria Elisa Cruz (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 08:57:54",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "31/08/2026 11:59:55",
+        "ip": "10.60.0.1",
+        "impressora": "SEMED - E.M. do Campo Abrahão Miguel Elias (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:13",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:15",
+        "ip": "10.4.0.2",
+        "impressora": "SMASH - DEHAB (Kyocera TASKalfa 306ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:16",
+        "ip": "10.48.0.1",
+        "impressora": "SEMED - E.M. Maria Elisa Cruz (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:18",
+        "ip": "10.30.0.1",
+        "impressora": "SEMSA - UBS Santaria (Recepção 2) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:20",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:26",
+        "ip": "10.19.0.2",
+        "impressora": "SEMSA - Farmácia Municipal (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:27",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:38",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:38",
+        "ip": "10.43.0.1",
+        "impressora": "SEMED - CMAE-TEA (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:38",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:40",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 08:15:42",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 10:08:26",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "01/09/2026 23:03:56",
+        "ip": "10.57.0.1",
+        "impressora": "SEMED - CMAE (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 00:07:50",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 00:07:53",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 00:21:38",
+        "ip": "10.100.0.1",
+        "impressora": "SEMAD - Tecnologia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 00:21:44",
+        "ip": "10.30.0.1",
+        "impressora": "SEMSA - UBS Santaria (Recepção 2) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 00:21:44",
+        "ip": "10.4.0.2",
+        "impressora": "SMASH - DEHAB (Kyocera TASKalfa 306ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 00:21:44",
+        "ip": "10.48.0.1",
+        "impressora": "SEMED - E.M. Maria Elisa Cruz (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 00:21:46",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 00:21:55",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 00:22:08",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 00:22:08",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 00:22:10",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 07:18:00",
+        "ip": "10.43.0.1",
+        "impressora": "SEMED - CMAE-TEA (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 08:41:45",
+        "ip": "10.19.0.2",
+        "impressora": "SEMSA - Farmácia Municipal (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 09:54:35",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 14:46:37",
+        "ip": "10.6.0.1",
+        "impressora": "SEMMA - Administração (Kyocera TASKalfa 356ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 17:09:26",
+        "ip": "10.28.0.1",
+        "impressora": "SEMSA - UBS Tacaniça dos Costas (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 19:51:17",
+        "ip": "10.21.0.1",
+        "impressora": "SEMSA - Vigilância em Saúde (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 20:19:22",
+        "ip": "10.5.0.2",
+        "impressora": "SEPLAN - Junta Militar (Documentação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "02/09/2026 20:31:25",
+        "ip": "10.0.0.17",
+        "impressora": "SEMDE - Sala do Empreendedor (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:09:21",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:09:28",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:09:28",
+        "ip": "10.0.0.17",
+        "impressora": "SEMDE - Sala do Empreendedor (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:09:30",
+        "ip": "10.30.0.1",
+        "impressora": "SEMSA - UBS Santaria (Recepção 2) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:09:30",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:09:33",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:09:33",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:09:34",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:09:38",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:09:40",
+        "ip": "10.48.0.1",
+        "impressora": "SEMED - E.M. Maria Elisa Cruz (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:09:41",
+        "ip": "10.4.0.2",
+        "impressora": "SMASH - DEHAB (Kyocera TASKalfa 306ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 00:11:43",
+        "ip": "10.6.0.1",
+        "impressora": "SEMMA - Administração (Kyocera TASKalfa 356ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 01:56:03",
+        "ip": "10.5.0.2",
+        "impressora": "SEPLAN - Junta Militar (Documentação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 02:11:36",
+        "ip": "10.28.0.1",
+        "impressora": "SEMSA - UBS Tacaniça dos Costas (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 04:11:23",
+        "ip": "10.21.0.1",
+        "impressora": "SEMSA - Vigilância em Saúde (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 07:28:37",
+        "ip": "10.43.0.1",
+        "impressora": "SEMED - CMAE-TEA (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 07:56:32",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 08:41:25",
+        "ip": "10.0.0.23",
+        "impressora": "SEPLAN - Segurança e Defesa (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/09/2026 10:25:40",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:07:15",
+        "ip": "10.48.0.1",
+        "impressora": "SEMED - E.M. Maria Elisa Cruz (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:07:18",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:07:21",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:07:22",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:07:22",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:07:26",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:07:26",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:07:30",
+        "ip": "10.4.0.2",
+        "impressora": "SMASH - DEHAB (Kyocera TASKalfa 306ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:07:31",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:07:35",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:07:42",
+        "ip": "10.43.0.1",
+        "impressora": "SEMED - CMAE-TEA (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 09:59:34",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 11:19:34",
+        "ip": "10.52.0.6",
+        "impressora": "SEMED - Infraestrutura (Kyocera TASKalfa MZ3200i)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 11:28:48",
+        "ip": "10.32.0.1",
+        "impressora": "SEMED - CMEI Maria da Luz Christo Lima (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 11:28:52",
+        "ip": "10.31.0.92",
+        "impressora": "Epson L3250",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/09/2026 14:07:26",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:27:17",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:39:07",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:39:10",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:39:21",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:39:24",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:39:28",
+        "ip": "10.48.0.1",
+        "impressora": "SEMED - E.M. Maria Elisa Cruz (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:39:31",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:39:32",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:39:36",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:39:40",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:39:43",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "11/09/2026 13:39:45",
+        "ip": "10.50.0.1",
+        "impressora": "SEMED - E.M. Benjamin Constante (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 08:09:47",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 08:09:49",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 08:09:50",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 08:10:00",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 08:10:11",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 08:10:13",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 08:10:14",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 08:10:32",
+        "ip": "10.48.0.1",
+        "impressora": "SEMED - E.M. Maria Elisa Cruz (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 08:10:34",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 08:12:53",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 10:50:10",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "14/09/2026 13:30:31",
+        "ip": "10.43.0.1",
+        "impressora": "SEMED - CMAE-TEA (Kyocera ECOSYS M2640idw)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 08:10:44",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 08:10:50",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 08:10:52",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 08:10:55",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 08:11:09",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 08:11:13",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 08:11:15",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 08:11:18",
+        "ip": "10.48.0.1",
+        "impressora": "SEMED - E.M. Maria Elisa Cruz (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 08:11:19",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 08:11:21",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 08:22:26",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 10:41:05",
+        "ip": "10.50.0.1",
+        "impressora": "SEMED - E.M. Benjamin Constante (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "15/09/2026 13:08:50",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 00:00:06",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 00:00:09",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 00:00:12",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 00:00:16",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 00:00:18",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 00:00:29",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 00:00:31",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 00:00:34",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 00:00:35",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 00:00:36",
+        "ip": "10.50.0.1",
+        "impressora": "SEMED - E.M. Benjamin Constante (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 00:00:36",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 07:15:16",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 10:16:40",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "16/09/2026 15:21:11",
+        "ip": "10.0.0.21",
+        "impressora": "SEPLAN - Comunicação (Kyocera TASKalfa 2553ci)",
+        "toner": "Amarelo",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 00:00:03",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 00:00:08",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 00:00:09",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 00:00:11",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 00:00:11",
+        "ip": "10.14.0.1",
+        "impressora": "SMASH - Conselho Tutelar (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 00:00:15",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 00:00:16",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 00:00:18",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 00:00:18",
+        "ip": "10.50.0.1",
+        "impressora": "SEMED - E.M. Benjamin Constante (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 00:00:26",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 00:01:12",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "17/09/2026 08:58:40",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:04",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:06",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:06",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:10",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:10",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:11",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:14",
+        "ip": "10.54.0.3",
+        "impressora": "SEMED - E.M. Vovó Brasilia (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:32",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:38",
+        "ip": "10.50.0.1",
+        "impressora": "SEMED - E.M. Benjamin Constante (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:39",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:41",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 09:06:46",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "18/09/2026 14:32:24",
+        "ip": "10.0.0.21",
+        "impressora": "SEPLAN - Comunicação (Kyocera TASKalfa 2553ci)",
+        "toner": "Amarelo",
+        "nivel": 6
+    },
+    {
+        "data": "19/09/2026 00:00:26",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/09/2026 00:00:33",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/09/2026 00:00:35",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/09/2026 00:00:41",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/09/2026 00:00:43",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/09/2026 00:00:45",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/09/2026 00:00:46",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/09/2026 00:00:48",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/09/2026 00:00:55",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/09/2026 00:00:05",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/09/2026 00:00:39",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/09/2026 00:00:47",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/09/2026 00:00:49",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/09/2026 00:00:54",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/09/2026 00:00:56",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/09/2026 00:00:59",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/09/2026 00:01:01",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/09/2026 00:01:02",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "21/09/2026 00:00:01",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "21/09/2026 00:00:06",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "21/09/2026 00:00:08",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "21/09/2026 00:00:11",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "21/09/2026 00:00:13",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "21/09/2026 00:00:20",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "21/09/2026 00:00:52",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "21/09/2026 00:00:59",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "21/09/2026 00:01:11",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "21/09/2026 11:39:05",
+        "ip": "10.50.0.1",
+        "impressora": "SEMED - E.M. Benjamin Constante (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "21/09/2026 11:39:12",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/09/2026 00:07:28",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/09/2026 00:07:28",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/09/2026 00:07:29",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/09/2026 00:07:44",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/09/2026 00:07:47",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/09/2026 00:07:49",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/09/2026 00:07:51",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/09/2026 00:08:13",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/09/2026 00:08:19",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/09/2026 08:28:32",
+        "ip": "10.50.0.1",
+        "impressora": "SEMED - E.M. Benjamin Constante (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/09/2026 14:46:16",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/09/2026 14:46:20",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/09/2026 14:46:23",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/09/2026 14:46:24",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/09/2026 14:46:25",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/09/2026 14:46:28",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/09/2026 14:46:32",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/09/2026 14:46:36",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/09/2026 14:46:43",
+        "ip": "10.31.0.2",
+        "impressora": "SEMED - E.M. Maria da Luz Christo Lima (Secretaria) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/09/2026 14:46:48",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/09/2026 14:46:55",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/09/2026 00:00:09",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/09/2026 00:00:12",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/09/2026 00:00:17",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/09/2026 00:00:18",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/09/2026 00:00:19",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/09/2026 00:00:22",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/09/2026 00:00:28",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/09/2026 00:00:34",
+        "ip": "10.31.0.2",
+        "impressora": "SEMED - E.M. Maria da Luz Christo Lima (Secretaria) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/09/2026 00:00:34",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/09/2026 00:02:47",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/09/2026 09:35:17",
+        "ip": "10.16.0.3",
+        "impressora": "SEMSA - Central de Transportes (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 00:00:02",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 00:00:10",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 00:00:16",
+        "ip": "10.31.0.2",
+        "impressora": "SEMED - E.M. Maria da Luz Christo Lima (Secretaria) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 00:00:18",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 00:01:07",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 00:01:07",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 00:01:08",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 00:01:23",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 00:01:49",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 08:08:51",
+        "ip": "10.46.0.1",
+        "impressora": "SEMED - E.M. Nilce Faria Elias (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 09:17:40",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "25/09/2026 09:18:22",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/09/2026 00:00:01",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/09/2026 00:00:02",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/09/2026 00:00:06",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/09/2026 00:00:07",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/09/2026 00:00:09",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/09/2026 00:00:11",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/09/2026 00:00:17",
+        "ip": "10.31.0.2",
+        "impressora": "SEMED - E.M. Maria da Luz Christo Lima (Secretaria) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/09/2026 00:00:17",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/09/2026 00:00:19",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/09/2026 00:00:31",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/09/2026 00:00:41",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/09/2026 00:00:14",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/09/2026 00:00:17",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/09/2026 00:00:18",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/09/2026 00:00:19",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/09/2026 00:00:22",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/09/2026 00:00:28",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/09/2026 00:00:30",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/09/2026 00:00:34",
+        "ip": "10.31.0.2",
+        "impressora": "SEMED - E.M. Maria da Luz Christo Lima (Secretaria) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/09/2026 00:00:34",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/09/2026 00:00:35",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/09/2026 00:00:47",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 08:04:07",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 08:04:10",
+        "ip": "10.46.0.1",
+        "impressora": "SEMED - E.M. Nilce Faria Elias (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 08:04:20",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 08:04:21",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 08:04:23",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 08:04:24",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 08:04:29",
+        "ip": "10.31.0.2",
+        "impressora": "SEMED - E.M. Maria da Luz Christo Lima (Secretaria) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 08:04:30",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 08:04:33",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 08:04:59",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 08:19:48",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 11:35:47",
+        "ip": "10.47.0.1",
+        "impressora": "SEMED - E.M Jueli Costa Rosa Polonha (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 14:16:37",
+        "ip": "10.31.0.1",
+        "impressora": "SEMED - E.M. Maria da Luz Christo Lima (Coordenação) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/09/2026 17:04:59",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 00:01:30",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 00:01:35",
+        "ip": "10.54.0.2",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Professores) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 00:01:35",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 00:01:36",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 00:01:39",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 00:01:47",
+        "ip": "10.27.0.2",
+        "impressora": "SEMSA - UBS Vila São Pedro (Administração) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 00:01:48",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 00:01:53",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 00:01:54",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 00:02:27",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 07:03:50",
+        "ip": "10.47.0.1",
+        "impressora": "SEMED - E.M Jueli Costa Rosa Polonha (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 07:40:27",
+        "ip": "10.46.0.1",
+        "impressora": "SEMED - E.M. Nilce Faria Elias (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 07:45:43",
+        "ip": "10.31.0.1",
+        "impressora": "SEMED - E.M. Maria da Luz Christo Lima (Coordenação) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 08:05:58",
+        "ip": "10.31.0.2",
+        "impressora": "SEMED - E.M. Maria da Luz Christo Lima (Secretaria) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/09/2026 14:16:30",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:20:54",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:20:55",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:21:07",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:21:08",
+        "ip": "10.34.0.1",
+        "impressora": "SEMED - E.M.C. Zerze Machado de Bonfim (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:21:14",
+        "ip": "10.22.0.2",
+        "impressora": "SEMSA - Ubs Açungui (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:21:19",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:21:26",
+        "ip": "10.41.0.1",
+        "impressora": "SEMED - E.M.C. Valfrido Lazarini (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:21:32",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:21:37",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:21:39",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:21:42",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:21:50",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "19/10/2026 10:38:15",
+        "ip": "10.46.0.1",
+        "impressora": "SEMED - E.M. Nilce Faria Elias (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 00:00:02",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 00:00:03",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 00:13:22",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 00:13:26",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 00:13:27",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 00:13:29",
+        "ip": "10.22.0.2",
+        "impressora": "SEMSA - Ubs Açungui (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 00:13:29",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 00:13:29",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 00:13:31",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 00:13:37",
+        "ip": "10.41.0.1",
+        "impressora": "SEMED - E.M.C. Valfrido Lazarini (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 00:13:48",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "20/10/2026 08:20:57",
+        "ip": "10.3.0.1",
+        "impressora": "SMASH - CRAS (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:11",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:19",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:19",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:22",
+        "ip": "10.22.0.2",
+        "impressora": "SEMSA - Ubs Açungui (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:22",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:25",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:25",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:35",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:35",
+        "ip": "10.52.0.3",
+        "impressora": "SEMED - Ensino (Kyocera TASKalfa 3554ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:39",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:40",
+        "ip": "10.34.0.1",
+        "impressora": "SEMED - E.M.C. Zerze Machado de Bonfim (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:45",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:05:52",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:20:26",
+        "ip": "10.3.0.1",
+        "impressora": "SMASH - CRAS (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "22/10/2026 10:58:57",
+        "ip": "10.6.0.3",
+        "impressora": "SEMOP - Iluminação (Kyocera TASKalfa 2553ci)",
+        "toner": "Amarelo",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:01",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:04",
+        "ip": "10.54.0.1",
+        "impressora": "SEMED - E.M. Prefeito Octávio Furquim (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:04",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:08",
+        "ip": "10.22.0.2",
+        "impressora": "SEMSA - Ubs Açungui (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:08",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:10",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:11",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:19",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:19",
+        "ip": "10.52.0.3",
+        "impressora": "SEMED - Ensino (Kyocera TASKalfa 3554ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:19",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:34",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 00:00:36",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "23/10/2026 07:27:15",
+        "ip": "10.34.0.1",
+        "impressora": "SEMED - E.M.C. Zerze Machado de Bonfim (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/10/2026 00:00:31",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/10/2026 00:00:32",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/10/2026 00:00:39",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/10/2026 00:00:42",
+        "ip": "10.22.0.2",
+        "impressora": "SEMSA - Ubs Açungui (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/10/2026 00:00:43",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/10/2026 00:00:46",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/10/2026 00:00:47",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/10/2026 00:00:53",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/10/2026 00:00:54",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "24/10/2026 00:01:01",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 09:18:35",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 09:18:36",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 09:18:37",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 09:18:48",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 09:18:54",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 09:18:55",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 09:19:02",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 09:19:06",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 09:19:07",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 09:45:10",
+        "ip": "10.52.0.3",
+        "impressora": "SEMED - Ensino (Kyocera TASKalfa 3554ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 13:05:41",
+        "ip": "10.34.0.1",
+        "impressora": "SEMED - E.M.C. Zerze Machado de Bonfim (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "26/10/2026 13:07:03",
+        "ip": "10.22.0.2",
+        "impressora": "SEMSA - Ubs Açungui (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/10/2026 00:00:11",
+        "ip": "10.22.0.2",
+        "impressora": "SEMSA - Ubs Açungui (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/10/2026 00:00:13",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/10/2026 00:00:14",
+        "ip": "10.52.0.3",
+        "impressora": "SEMED - Ensino (Kyocera TASKalfa 3554ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/10/2026 00:00:15",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/10/2026 00:00:16",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/10/2026 00:00:22",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/10/2026 00:00:28",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/10/2026 00:00:30",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/10/2026 00:00:37",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/10/2026 00:00:42",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "27/10/2026 07:38:27",
+        "ip": "10.34.0.1",
+        "impressora": "SEMED - E.M.C. Zerze Machado de Bonfim (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 08:39:08",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 08:39:09",
+        "ip": "10.34.0.1",
+        "impressora": "SEMED - E.M.C. Zerze Machado de Bonfim (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 08:39:13",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 08:39:18",
+        "ip": "10.52.0.3",
+        "impressora": "SEMED - Ensino (Kyocera TASKalfa 3554ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 08:39:19",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 08:39:20",
+        "ip": "10.12.0.1",
+        "impressora": "SMASH - CREAS (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 08:39:25",
+        "ip": "10.22.0.2",
+        "impressora": "SEMSA - Ubs Açungui (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 08:39:30",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 08:39:36",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 08:39:39",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 08:40:02",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "28/10/2026 10:12:24",
+        "ip": "10.50.0.1",
+        "impressora": "SEMED - E.M. Benjamin Constante (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/10/2026 08:33:52",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/10/2026 08:33:54",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/10/2026 08:33:57",
+        "ip": "10.52.0.3",
+        "impressora": "SEMED - Ensino (Kyocera TASKalfa 3554ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/10/2026 08:34:01",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/10/2026 08:34:02",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/10/2026 08:34:03",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/10/2026 08:34:15",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/10/2026 08:34:16",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/10/2026 08:34:20",
+        "ip": "10.22.0.2",
+        "impressora": "SEMSA - Ubs Açungui (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "29/10/2026 09:23:08",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 08:19:24",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 08:19:30",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 08:19:33",
+        "ip": "10.6.0.8",
+        "impressora": "SEMOP - Frotas (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 08:19:38",
+        "ip": "10.50.0.1",
+        "impressora": "SEMED - E.M. Benjamin Constante (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 08:19:39",
+        "ip": "10.34.0.1",
+        "impressora": "SEMED - E.M.C. Zerze Machado de Bonfim (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 08:19:44",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 08:19:50",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 08:20:05",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 08:20:12",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 08:20:19",
+        "ip": "10.52.0.3",
+        "impressora": "SEMED - Ensino (Kyocera TASKalfa 3554ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 09:37:29",
+        "ip": "10.15.0.1",
+        "impressora": "SMAPA - Armazém da Família (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 10:48:09",
+        "ip": "10.22.0.2",
+        "impressora": "SEMSA - Ubs Açungui (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "03/11/2026 11:16:29",
+        "ip": "10.47.0.1",
+        "impressora": "SEMED - E.M Jueli Costa Rosa Polonha (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 09:48:16",
+        "ip": "10.11.0.1",
+        "impressora": "SMASH - Lar Primavera (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 09:48:27",
+        "ip": "10.50.0.1",
+        "impressora": "SEMED - E.M. Benjamin Constante (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 09:48:34",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 09:48:38",
+        "ip": "10.47.0.1",
+        "impressora": "SEMED - E.M Jueli Costa Rosa Polonha (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 09:48:45",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 09:48:46",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 09:48:48",
+        "ip": "10.34.0.1",
+        "impressora": "SEMED - E.M.C. Zerze Machado de Bonfim (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 09:48:53",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 09:48:56",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 12:50:39",
+        "ip": "10.31.0.1",
+        "impressora": "SEMED - E.M. Maria da Luz Christo Lima (Coordenação) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 13:39:35",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "04/11/2026 14:18:45",
+        "ip": "10.52.0.3",
+        "impressora": "SEMED - Ensino (Kyocera TASKalfa 3554ci)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "05/11/2026 09:41:23",
+        "ip": "10.29.0.3",
+        "impressora": "SEMSA - UBS Vila Velha (Consultório 3) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "05/11/2026 09:41:24",
+        "ip": "10.34.0.1",
+        "impressora": "SEMED - E.M.C. Zerze Machado de Bonfim (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "05/11/2026 09:41:27",
+        "ip": "10.3.0.2",
+        "impressora": "SMASH - CRAS (CadÚnico) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "05/11/2026 09:41:37",
+        "ip": "10.50.0.1",
+        "impressora": "SEMED - E.M. Benjamin Constante (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "05/11/2026 09:41:44",
+        "ip": "10.7.0.4",
+        "impressora": "SEMAD - Almoxarifado (Kyocera ECOSYS M3145idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "05/11/2026 09:41:46",
+        "ip": "10.52.0.3",
+        "impressora": "SEMED - Ensino (Kyocera TASKalfa 3554ci)",
+        "toner": "Amarelo",
+        "nivel": 6
+    },
+    {
+        "data": "05/11/2026 09:41:52",
+        "ip": "10.47.0.2",
+        "impressora": "SEMED - E.M. Jueli Costa Rosa Polonha (Coordenação) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "05/11/2026 09:41:57",
+        "ip": "10.31.0.1",
+        "impressora": "SEMED - E.M. Maria da Luz Christo Lima (Coordenação) (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "05/11/2026 09:42:10",
+        "ip": "10.17.0.2",
+        "impressora": "SEMSA - CAPS (Recepção) (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "05/11/2026 09:42:14",
+        "ip": "10.18.0.1",
+        "impressora": "SEMSA - Centro de Reabilitação (Kyocera ECOSYS M2040dn)",
+        "toner": "Preto",
+        "nivel": 6
+    },
+    {
+        "data": "05/11/2026 09:57:40",
+        "ip": "10.47.0.1",
+        "impressora": "SEMED - E.M Jueli Costa Rosa Polonha (Kyocera ECOSYS M3655idn)",
+        "toner": "Preto",
+        "nivel": 6
+    }
+]
