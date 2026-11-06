@@ -11,92 +11,7 @@
             <title>Monitor de Impressoras</title>
 
           
-            <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=3.5">
-
-            <!-- =========================================================
-            ESTILO CRÍTICO ESTRUTURAL (IMUNE A CACHE DE NAVEGADOR)
-            ========================================================= -->
-            <style>
-                html, body {
-                    margin: 0 !important;
-                    padding: 0 !important;
-                    width: 100% !important;
-                    min-height: 100vh !important;
-                    overflow-x: hidden !important;
-                }
-
-                /* MENU LATERAL FIXO */
-                .menu {
-                    position: fixed !important;
-                    left: 0 !important;
-                    top: 0 !important;
-                    bottom: 0 !important;
-                    width: 230px !important;
-                    height: 100vh !important;
-                    z-index: 1050 !important;
-                    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-                    box-sizing: border-box !important;
-                }
-
-                body.menu-recolhido .menu {
-                    width: 72px !important;
-                    padding: 14px 8px !important;
-                }
-
-                /* CONTEÚDO PRINCIPAL - NUNCA COBERTO PELA BARRA */
-                .conteudo-principal {
-                    margin-left: 230px !important;
-                    width: calc(100% - 230px) !important;
-                    min-height: 100vh !important;
-                    box-sizing: border-box !important;
-                    transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-                    position: relative !important;
-                    z-index: 1 !important;
-                    display: flex !important;
-                    flex-direction: column !important;
-                }
-
-                /* QUANDO RECOLHIDO: DESLOCA EXATAMENTE 72px E PREENCHE O RESTO DA TELA */
-                body.menu-recolhido .conteudo-principal {
-                    margin-left: 72px !important;
-                    width: calc(100% - 72px) !important;
-                }
-
-                /* CABEÇALHO E CONTAINER COM RESPIRO PERFEITO */
-                .cabecalho {
-                    width: 100% !important;
-                    padding: 24px 30px !important;
-                    box-sizing: border-box !important;
-                }
-
-                .container-fluid {
-                    width: 100% !important;
-                    padding: 20px 25px !important;
-                    box-sizing: border-box !important;
-                }
-
-                @media (max-width: 768px) {
-                    .menu,
-                    body.menu-recolhido .menu {
-                        position: relative !important;
-                        left: auto !important;
-                        top: auto !important;
-                        bottom: auto !important;
-                        width: 100% !important;
-                        height: auto !important;
-                        min-height: 0 !important;
-                        padding: 10px 12px !important;
-                        z-index: 1 !important;
-                    }
-
-                    .conteudo-principal,
-                    body.menu-recolhido .conteudo-principal {
-                        margin-left: 0 !important;
-                        width: 100% !important;
-                    }
-                }
-
-            </style>
+            <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=3.7">
         <!--=========================================================
         CONFIGURAÇÃO GERAL
         ========================================================= -->
@@ -104,15 +19,7 @@
     </head>
           
             <body>
-        <script>
-            (function() {
-                try {
-                    if (localStorage.getItem("menu_recolhido") === "1") {
-                        document.body.classList.add("menu-recolhido");
-                    }
-                } catch(e) {}
-            })();
-        </script>
+        <script src="{{ url_for('static', filename='js/menu-state.js') }}?v=1"></script>
 
 
         <!-- ======================================================
@@ -155,32 +62,32 @@
 
                 <!-- LISTA DE BOTÕES -->
                 <div class="menu-botoes">
-                    <button class="item-menu" onclick="abrirImpressoras()" type="button" title="Impressoras">
+                    <button class="item-menu" onclick="alternarSecaoMenu('impressoras', abrirImpressoras)" type="button" title="Impressoras">
                         <img src="https://img.icons8.com/fluency-systems-regular/48/print.png" alt="print">
                         <span class="item-menu-texto">Impressoras</span>
                     </button>
 
-                    <button class="item-menu" onclick="carregar_offline()" type="button" title="Offline">
+                    <button class="item-menu" onclick="alternarSecaoMenu('offline', carregar_offline)" type="button" title="Offline">
                         <img src="https://img.icons8.com/ios/50/no-internet.png" alt="offline">
                         <span class="item-menu-texto">Offline</span>
                     </button>
 
-                    <button class="item-menu" onclick="mostrarTonerBaixo()" type="button" title="Toners baixos">
+                    <button class="item-menu" onclick="alternarSecaoMenu('toners-baixos', mostrarTonerBaixo)" type="button" title="Toners baixos">
                         <img src="https://img.icons8.com/fluency-systems-filled/48/fill-color.png" alt="toner">
                         <span class="item-menu-texto">Toners baixos</span>
                     </button>
 
-                    <button class="item-menu" onclick="mostrarTonersNaoConfiaveis()" type="button" title="Toners não confiáveis">
+                    <button class="item-menu" onclick="alternarSecaoMenu('toners-nao-confiaveis', mostrarTonersNaoConfiaveis)" type="button" title="Toners não confiáveis">
                         <img src="https://img.icons8.com/metro/26/do-not-insert.png" alt="alerta">
                         <span class="item-menu-texto">Toners não confiáveis</span>
                     </button>
 
-                    <button class="item-menu" onclick="mostrarhistorico()" type="button" title="Histórico">
+                    <button class="item-menu" onclick="alternarSecaoMenu('historico', mostrarhistorico)" type="button" title="Histórico">
                         <img src="https://img.icons8.com/windows/32/activity-history.png" alt="historico">
                         <span class="item-menu-texto">Histórico</span>
                     </button>
 
-                    <button class="item-menu" onclick="mostrarEstoque()" type="button" title="Estoque">
+                    <button class="item-menu" onclick="alternarSecaoMenu('estoque', mostrarEstoque)" type="button" title="Estoque">
                         <img src="https://img.icons8.com/dotty/80/warehouse--v2.png" alt="estoque">
                         <span class="item-menu-texto">Estoque</span>
                     </button>
@@ -344,7 +251,7 @@
 
 
                 <div class="area-conteudo-estoque">
-                    <!--TÍTULO E BOTÃO VOLTAR-->
+                    <!-- Título do estoque -->
                     <div class="cabecalho-lista">
                         <h3 class="titulo-pastas">
                             <img
@@ -354,13 +261,6 @@
                                 alt="estoque">
                             Estoque de Toners
                         </h3>
-
-                        <button
-                            type="button"
-                            class="btn btn-secondary"
-                            onclick="fecharEstoque()">
-                            ← Voltar
-                        </button>
 
                     </div>
 
@@ -936,15 +836,6 @@
                         Impressoras por setor
                     </h3>
 
-                    <button
-                        type="button"
-                        class="btn btn-secondary"
-                        onclick="voltarInicio()">
-
-                        ← Voltar
-
-                    </button>
-
                 </div>
 
 
@@ -1077,6 +968,18 @@
                                 data-modelo="{{ impressora.modelo }}"
 
                                 data-patrimonio="{{ impressora.patrimonio }}"
+
+                                data-setor="{{ impressora.nome_planilha or impressora.modelo }}"
+
+                                role="button"
+
+                                tabindex="0"
+
+                                aria-label="Abrir ficha de {{ impressora.nome_planilha or impressora.modelo }}"
+
+                                onclick="abrirFichaImpressora(this)"
+
+                                onkeydown="abrirFichaImpressoraComTeclado(event, this)"
 
                             >
 
@@ -1375,68 +1278,70 @@
        
 
             <script
-                src="{{ url_for('static', filename='js/script.js') }}?v=3.5">
+                src="{{ url_for('static', filename='js/script.js') }}?v=4.0">
             </script>
 
     
             
         </div> <!-- FIM .conteudo-principal -->
 
-<!-- ======================================================
-            CONTROLE AUTÔNOMO DA BARRA LATERAL RECOLHÍVEL
-            ====================================================== -->
-            <script>
-                function alternarMenu() {
-                    const corpo = document.body;
-                    const btnToggle = document.getElementById("btn-toggle-menu");
+        <dialog
+            id="ficha-impressora"
+            class="ficha-impressora"
+            aria-labelledby="ficha-impressora-titulo">
 
-                    if (window.matchMedia("(max-width: 768px)").matches) {
-                        const menuAberto = corpo.classList.toggle("menu-aberto-mobile");
-                        const acao = menuAberto ? "Fechar" : "Abrir";
+            <div class="ficha-impressora-cabecalho">
+                <div>
+                    <p>Detalhes do equipamento</p>
+                    <h2 id="ficha-impressora-titulo">Impressora</h2>
+                </div>
+                <button
+                    type="button"
+                    class="ficha-impressora-fechar"
+                    onclick="fecharFichaImpressora()"
+                    aria-label="Fechar ficha">×</button>
+            </div>
 
-                        if (btnToggle) {
-                            btnToggle.setAttribute("aria-expanded", String(menuAberto));
-                            btnToggle.setAttribute("aria-label", `${acao} menu`);
-                            btnToggle.setAttribute("title", `${acao} menu`);
-                            btnToggle.querySelector(".texto-toggle").textContent =
-                                `${acao} Menu`;
-                        }
+            <div class="ficha-impressora-dados">
+                <div class="ficha-impressora-campo">
+                    <span>Setor / local</span>
+                    <strong id="ficha-impressora-setor">-</strong>
+                </div>
+                <div class="ficha-impressora-campo">
+                    <span>Endereço IP</span>
+                    <strong id="ficha-impressora-ip">-</strong>
+                </div>
+                <div class="ficha-impressora-campo">
+                    <span>Patrimônio</span>
+                    <strong id="ficha-impressora-patrimonio">-</strong>
+                </div>
+                <div class="ficha-impressora-campo">
+                    <span>Modelo da impressora</span>
+                    <strong id="ficha-impressora-modelo">-</strong>
+                </div>
+                <div class="ficha-impressora-campo">
+                    <span>Status</span>
+                    <strong id="ficha-impressora-status">-</strong>
+                </div>
+                <div class="ficha-impressora-campo">
+                    <span>Modelo do toner compatível</span>
+                    <div id="ficha-impressora-toner">Consultando cadastro...</div>
+                </div>
+                <div class="ficha-impressora-campo ficha-impressora-contador">
+                    <span>Contagem de páginas (SNMP)</span>
+                    <strong id="ficha-impressora-contador" aria-live="polite">
+                        Consultando impressora...
+                    </strong>
+                </div>
+            </div>
 
-                        return;
-                    }
+            <p
+                id="ficha-impressora-mensagem"
+                class="ficha-impressora-mensagem"
+                role="status"></p>
 
-                    corpo.classList.remove("menu-aberto-mobile");
-                    const estaRecolhido = corpo.classList.toggle("menu-recolhido");
+        </dialog>
 
-                    try {
-                        localStorage.setItem("menu_recolhido", estaRecolhido ? "1" : "0");
-                    } catch(e) {}
-
-                    if (btnToggle) {
-                        btnToggle.setAttribute("aria-expanded", String(!estaRecolhido));
-                        btnToggle.setAttribute(
-                            "title",
-                            estaRecolhido ? "Expandir menu lateral" : "Recolher menu lateral"
-                        );
-                        btnToggle.setAttribute(
-                            "aria-label",
-                            estaRecolhido ? "Expandir menu lateral" : "Recolher menu lateral"
-                        );
-                        btnToggle.querySelector(".texto-toggle").textContent =
-                            estaRecolhido ? "Expandir Menu" : "Recolher Menu";
-                    }
-                }
-
-                function focarPesquisa() {
-                    if (document.body.classList.contains("menu-recolhido")) {
-                        alternarMenu();
-                    }
-                    const inputPesquisa = document.getElementById("pesquisa");
-                    if (inputPesquisa) {
-                        setTimeout(() => inputPesquisa.focus(), 150);
-                    }
-                }
-            </script>
     </body>
 
 </html>

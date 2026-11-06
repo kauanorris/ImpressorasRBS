@@ -1,0 +1,1462 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: #f4f6f9;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* =========================================================
+CONTEÚDO PRINCIPAL (RESPONSIVO E DE LARGURA TOTAL)
+========================================================= */
+
+.conteudo-principal {
+    margin-left: 230px;
+    width: calc(100% - 230px);
+    min-height: 100vh;
+    box-sizing: border-box;
+    transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+body.menu-recolhido .conteudo-principal {
+    margin-left: 72px;
+    width: calc(100% - 72px);
+}
+
+/* =========================================================
+            CABEÇALHO PRINCIPAL
+            ========================================================= */
+
+            .cabecalho {
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffffff;
+    color: rgb(14, 13, 13);
+    min-height: 120px;
+    padding: 24px 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+
+            .cabecalho h1 {
+
+                font-size: 30px;
+
+                font-weight: 700;
+
+                margin: 0 0 6px 0;
+            }
+
+
+            .cabecalho p {
+
+                margin: 0;
+
+                font-size: 15px;
+            }
+
+
+            #horario {
+
+                font-weight: bold;
+            }
+
+
+            /* =========================================================
+MENU LATERAL RECOLHÍVEL (MODERNO E RESPONSIVO)
+========================================================= */
+
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 230px;
+    height: 100vh;
+    background: #eaebec;
+    padding: 14px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 1050;
+    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.08);
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ESTADO RECOLHIDO DA BARRA */
+body.menu-recolhido .menu {
+    width: 72px;
+    padding: 14px 8px;
+}
+
+/* BOTÃO DE RECOLHER / EXPANDIR COM SETA */
+.btn-toggle-menu {
+    width: 100%;
+    min-height: 38px;
+    height: 38px;
+    border: 1px solid #cbced4;
+    border-radius: 8px;
+    background: #dcdee3;
+    color: #2c3e50;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 6px 10px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    transition: background 0.2s, border-color 0.2s, transform 0.1s, padding 0.3s;
+    user-select: none;
+}
+
+.btn-toggle-menu:hover {
+    background: #ced2d9;
+    border-color: #b5b9c2;
+}
+
+.btn-toggle-menu:active {
+    transform: scale(0.97);
+}
+
+.btn-toggle-menu .icone-seta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-toggle-menu .icone-seta svg {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+    stroke-width: 2.5;
+    fill: none;
+}
+
+/* Seta inverte quando recolhido */
+body.menu-recolhido .btn-toggle-menu {
+    padding: 6px 0;
+    justify-content: center;
+}
+
+body.menu-recolhido .btn-toggle-menu .icone-seta {
+    transform: rotate(180deg);
+}
+
+body.menu-recolhido .btn-toggle-menu .texto-toggle {
+    display: none !important;
+}
+
+/* LOGO E BRASÃO DA PREFEITURA */
+.menu-logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 0 16px 0;
+    padding: 6px 0;
+    text-align: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    transition: margin 0.3s, padding 0.3s;
+}
+
+.brasao {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: width 0.3s, height 0.3s;
+}
+
+.brasao img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    transition: width 0.3s, height 0.3s;
+}
+
+.logo-prefeitura {
+    width: 100%;
+    color: #1a1a1a;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+    letter-spacing: 0.3px;
+    transition: opacity 0.2s;
+}
+
+.logo-prefeitura span {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #444;
+}
+
+body.menu-recolhido .menu-logo {
+    margin-bottom: 12px;
+    padding: 2px 0;
+}
+
+body.menu-recolhido .brasao {
+    width: 40px;
+    height: 40px;
+}
+
+body.menu-recolhido .brasao img {
+    width: 40px;
+    height: 40px;
+}
+
+body.menu-recolhido .logo-prefeitura {
+    display: none !important;
+}
+
+/* BARRA DE PESQUISA */
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    min-height: 42px;
+    margin-bottom: 14px;
+    background: #ffffff;
+    border: 1px solid #cbced4;
+    border-radius: 8px;
+    padding: 0 10px;
+    gap: 8px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    transition: padding 0.3s, justify-content 0.3s, border-color 0.2s;
+}
+
+.barra-pesquisa:focus-within {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.barra-pesquisa img {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    display: block;
+    opacity: 0.75;
+}
+
+.barra-pesquisa input {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 14px;
+    background: transparent;
+    color: #111;
+}
+
+body.menu-recolhido .barra-pesquisa {
+    padding: 0;
+    justify-content: center;
+    cursor: pointer;
+    background: #ffffff;
+}
+
+body.menu-recolhido .barra-pesquisa:hover {
+    background: #f1f3f5;
+    border-color: #2563eb;
+}
+
+body.menu-recolhido .barra-pesquisa input {
+    display: none !important;
+}
+
+body.menu-recolhido .barra-pesquisa img {
+    margin: 0 auto;
+}
+
+/* LISTA DE BOTÕES DO MENU */
+.menu-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu button,
+.menu .item-menu {
+    width: 100%;
+    min-height: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 12px;
+    background: transparent;
+    color: #1a1a1a;
+    font-size: 14.5px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+    box-sizing: border-box;
+    transition: background 0.2s, padding 0.3s cubic-bezier(0.4, 0, 0.2, 1), justify-content 0.3s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 0;
+    user-select: none;
+}
+
+.menu .item-menu:hover,
+.menu button:not(.btn-toggle-menu):hover {
+    background: rgba(255, 255, 255, 0.65);
+    color: #000000;
+}
+
+.menu .item-menu img,
+.menu button:not(.btn-toggle-menu) img {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    min-height: 22px;
+    flex-shrink: 0;
+    display: block;
+    object-fit: contain;
+    transition: transform 0.2s;
+}
+
+.menu .item-menu:hover img,
+.menu button:not(.btn-toggle-menu):hover img {
+    transform: scale(1.1);
+}
+
+.menu .item-menu span,
+.menu button:not(.btn-toggle-menu) span {
+    display: inline-block;
+    transition: opacity 0.2s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* ÍCONES ALINHADOS VERTICALMENTE E CENTRALIZADOS QUANDO RECOLHIDO */
+body.menu-recolhido .menu .item-menu,
+body.menu-recolhido .menu button:not(.btn-toggle-menu) {
+    justify-content: center;
+    padding: 10px 0;
+    gap: 0;
+}
+
+body.menu-recolhido .menu .item-menu span,
+body.menu-recolhido .menu button:not(.btn-toggle-menu) span {
+    display: none !important;
+}
+
+body.menu-recolhido .menu .item-menu img,
+body.menu-recolhido .menu button:not(.btn-toggle-menu) img {
+    margin: 0 auto;
+}
+
+/* TRANSIÇÃO SUAVE DO CONTEÚDO PRINCIPAL */
+.cabecalho,
+.container-fluid,
+#area-estoque,
+#area-lista,
+#area-pastas,
+#area-historico {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+/* ======================================================
+/* CARTÕES DE INDICADORES   CARTÕES DE INDICADORES - PAINEL PRINCIPAL
+            ====================================================== */
+
+            .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+
+            /* ÁREA DOS CARTÕES */
+
+            #painel-principal {
+                width: 100%;
+                display: block;
+            }
+
+
+            /* LINHA DOS CARTÕES */
+
+            .cards-indicadores {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(4, minmax(0 ,1fr));
+                gap: 18px;
+                margin: 20px 0 25px 0;
+                box-sizing: border-box;
+
+            }
+
+
+            /* CARTÃO */
+
+            .card-indicador {
+                min-height: 150px;
+                padding: 22px;
+                border-radius: 14px;
+                background: rgb(239, 241, 241);
+                box-sizing: border-box;
+
+                box-shadow:
+                    0 3px 12px rgba(0,0,0,0.10);
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+
+            /* ÍCONE */
+
+            .card-indicador .icone {
+                font-size: 32px;
+                margin-bottom: 8px;
+            }
+
+
+            /* TÍTULO */
+
+            .card-indicador h3 {
+                margin: 0 0 5px 0;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+
+            /* NÚMERO */
+
+            .card-indicador .numero {
+                font-size: 32px;
+                font-weight: 700;
+                margin: 0;
+            }
+
+
+            /* DESCRIÇÃO */
+
+            .card-indicador p {
+                margin: 5px 0 0 0;
+                font-size: 14px;
+            }
+
+
+            /* RESPONSIVO */
+
+            @media (max-width: 900px) {
+
+                .cards-indicadores {
+                    grid-template-columns: 1fr;
+                }
+
+            }
+            /* =========================================================
+            CARTÕES DE INDICADORES
+            ========================================================= */
+
+            .cartoes {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+    width: 100%;
+    margin: 0 0 25px 0;
+    box-sizing: border-box;
+}
+
+
+            .cartao {
+
+                background: white;
+
+                min-height: 125px;
+
+                border-radius: 14px;
+
+                padding: 20px;
+
+                box-shadow:
+                    0 3px 12px rgba(0,0,0,0.08);
+
+                display: flex;
+
+                align-items: center;
+
+                gap: 15px;
+
+                transition: 0.2s;
+
+                border-left: 5px solid #0b5cab;
+
+            }
+
+
+            .cartao:hover {
+
+                transform: translateY(-2px);
+
+                box-shadow:
+                    0 6px 16px rgba(0,0,0,0.12);
+
+            }
+
+
+            .cartao-total {
+
+                border-left-color: #0b5cab;
+
+            }
+
+
+            .cartao-online {
+
+                border-left-color: #28a745;
+
+            }
+
+
+            .cartao-offline {
+
+                border-left-color: #dc3545;
+
+            }
+
+
+            .cartao-toner {
+
+                border-left-color: #f0ad00;
+
+            }
+
+
+            /* =========================================================
+            ÍCONE DOS CARTÕES
+            ========================================================= */
+
+            .cartao-icone {
+
+                width: 58px;
+
+                height: 58px;
+
+                border-radius: 50%;
+
+                display: flex;
+
+                align-items: center;
+
+                justify-content: center;
+
+                font-size: 27px;
+
+                flex-shrink: 0;
+
+                background: #e8f1fb;
+
+            }
+
+
+            .cartao-total .cartao-icone {
+
+                background: #e3f0ff;
+
+            }
+
+
+            .cartao-online .cartao-icone {
+
+                background: #e4f7e9;
+
+            }
+
+
+            .cartao-offline .cartao-icone {
+
+                background: #fde8e8;
+
+            }
+
+
+            .cartao-toner .cartao-icone {
+
+                background: #fff4d6;
+
+            }
+
+
+            /* =========================================================
+            CONTEÚDO DOS CARTÕES
+            ========================================================= */
+
+            .cartao-conteudo {
+
+                min-width: 0;
+
+            }
+
+
+            .cartao-titulo {
+
+                font-size: 13px;
+
+                font-weight: 700;
+
+                color: #667085;
+
+                margin-bottom: 7px;
+
+                white-space: nowrap;
+
+            }
+
+
+            .numero {
+
+                font-size: 32px;
+
+                font-weight: 700;
+
+                line-height: 1;
+
+                color: #123b63;
+
+                margin-bottom: 7px;
+
+            }
+
+
+            .cartao-online .numero {
+
+                color: #28a745;
+
+            }
+
+
+            .cartao-offline .numero {
+
+                color: #dc3545;
+
+            }
+
+
+            .cartao-toner .numero {
+
+                color: #e09b00;
+
+            }
+
+
+            .cartao-subtitulo {
+
+                font-size: 13px;
+
+                color: #6c757d;
+
+            }
+
+
+            /* =========================================================
+            BARRA DE PESQUISA
+            ========================================================= */
+
+            .barra-pesquisa {
+
+                display: flex;
+
+                align-items: center;
+
+                width: 100%;
+
+                max-width: 500px;
+
+                height: 44px;
+
+                margin-bottom: 20px;
+
+                background: white;
+
+                border: 1px solid #d9dee7;
+
+                border-radius: 10px;
+
+                box-shadow:
+                    0 2px 8px rgba(0,0,0,0.05);
+
+            }
+
+
+            .icone-pesquisa {
+
+                margin-left: 14px;
+
+                font-size: 17px;
+
+                opacity: 0.55;
+
+            }
+
+
+            .barra-pesquisa input {
+
+                flex: 1;
+
+                height: 100%;
+
+                border: none;
+
+                outline: none;
+
+                padding: 0 14px;
+
+                font-size: 15px;
+
+                background: transparent;
+
+            }
+
+
+            /* =========================================================
+            PASTAS
+            ========================================================= */
+
+            #area-pastas {
+
+                margin-bottom: 25px;
+
+            }
+
+
+            .pastas {
+
+                display: grid;
+
+                grid-template-columns:
+                    repeat(auto-fill, minmax(220px, 1fr));
+
+                gap: 18px;
+
+            }
+
+
+            .pastas {
+
+                background: white;
+
+                border-radius: 14px;
+
+                padding: 20px;
+
+                min-height: 110px;
+
+                display: flex;
+
+                align-items: center;
+
+                flex-wrap: wrap;
+
+                gap: 15px;
+
+                cursor: pointer;
+
+                font-weight: bold;
+
+                box-shadow:
+                    0 2px 8px rgba(0,0,0,0.08);
+
+                transition: 0.2s;
+
+            }
+
+
+            .pastas:hover {
+
+                background: #e9ecef;
+
+                transform: translateY(-3px);
+
+            }
+
+
+            /* =========================================================
+            ÁREA DA LISTA
+            ========================================================= */
+
+            #area-lista {
+
+                display: none;
+
+            }
+
+
+            .cabecalho-lista {
+
+                display: flex;
+
+                justify-content: space-between;
+
+                align-items: center;
+
+                margin-bottom: 15px;
+
+                gap: 15px;
+
+                flex-wrap: wrap;
+
+            }
+
+
+            .cabecalho-lista h3 {
+
+                margin: 0;
+
+                font-size: 22px;
+
+                font-weight: bold;
+
+            }
+
+
+            /* =========================================================
+            PESQUISA
+            ========================================================= */
+
+            .pesquisa {
+
+                background: white;
+
+                padding: 15px;
+
+                border-radius: 12px;
+
+                margin-bottom: 20px;
+
+                box-shadow:
+                    0 3px 10px rgba(0,0,0,0.06);
+
+            }
+
+
+            .pesquisa input {
+
+                width: 100%;
+
+                border: 1px solid #ddd;
+
+                border-radius: 8px;
+
+                padding: 12px;
+
+                font-size: 15px;
+
+            }
+
+
+            /* =========================================================
+            TABELA
+            ========================================================= */
+
+            .tabela-container {
+
+                background: white;
+
+                border-radius: 15px;
+
+                padding: 15px;
+
+                box-shadow:
+                    0 3px 12px rgba(0,0,0,0.08);
+
+                overflow-x: auto;
+
+            }
+
+
+            table {
+
+                width: 100%;
+
+            }
+
+
+            th,
+            td {
+
+                padding: 12px !important;
+
+                vertical-align: middle;
+
+            }
+
+
+            /* =========================================================
+            TONER
+            ========================================================= */
+
+            .toner-bar {
+
+                height: 24px;
+
+                min-width: 90px;
+
+            }
+
+
+            /* =========================================================
+            ÁREA DO ESTOQUE
+            ========================================================= */
+
+            #area-estoque {
+
+                display: none;
+
+                width: 100%;
+
+                max-width: 100%;
+
+                margin: 0 0 25px 0;
+                box-sizing: border-box;
+
+            }
+
+
+            /* =========================================================
+            ABAS DO ESTOQUE
+            ========================================================= */
+
+                    
+            .abas-estoque {
+
+                display: flex;
+
+                gap: 6px;
+
+                margin: 0 0 20px;
+
+                border-bottom: 1px solid #d9e0e8;
+
+                flex-wrap: wrap;
+
+            }
+
+
+            .abas-estoque button {
+
+                border: 1px solid transparent;
+
+                background: #f1f3f5;
+
+                color: #334155;
+
+                padding: 10px 18px;
+
+                border-radius: 8px 8px 0 0;
+
+                font-size: 14px;
+
+                font-weight: 600;
+
+                cursor: pointer;
+
+                transition: background 0.2s, color 0.2s, border-color 0.2s;
+
+            }
+
+
+            .abas-estoque button:hover {
+
+                background: #e2e8f0;
+
+            }
+
+
+            .abas-estoque button.ativa {
+
+                background: #0b5cab;
+
+                color: white;
+
+                border-color: #0b5cab;
+
+            }
+
+            /* =========================================================
+            FORMULÁRIO DO TONER
+            ========================================================= */
+
+            #formulario-toner {
+
+                display: none;
+
+                background: white;
+
+                border-radius: 15px;
+
+                box-shadow:
+                    0 3px 12px rgba(0,0,0,0.08);
+
+                margin-bottom: 20px;
+
+            }
+
+
+            #formulario-toner .card-body {
+
+                padding: 25px;
+
+            }
+
+
+            /* =========================================================
+            FORMULÁRIO DE SAÍDA
+            ========================================================= */
+
+            #formulario-saida-toner {
+
+                display: none;
+
+                background: white;
+
+                border-radius: 15px;
+
+                box-shadow:
+                    0 3px 12px rgba(0,0,0,0.08);
+
+                margin-bottom: 20px;
+
+            }
+
+
+            #formulario-saida-toner .card-body {
+
+                padding: 25px;
+
+            }
+
+
+            /* =========================================================
+            ESTOQUE
+            ========================================================= */
+
+            .estoque-quantidade {
+
+                font-size: 20px;
+
+                font-weight: bold;
+
+            }
+
+
+            .badge-estoque {
+
+                font-size: 13px;
+
+            }
+
+
+            /* =========================================================
+            HISTÓRICO
+            ========================================================= */
+
+            #area-historico {
+
+                margin-bottom: 25px;
+
+            }
+
+
+            #area-historico .table-responsive {
+
+                background: white;
+
+                border-radius: 15px;
+
+                padding: 15px;
+
+                box-shadow:
+                    0 3px 12px rgba(0,0,0,0.08);
+
+                overflow-x: auto;
+
+            }
+
+
+            /* =========================================================
+            RESPONSIVIDADE
+            ========================================================= */
+
+            @media (max-width: 1100px) {
+    .cartoes {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudo-principal {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    body.menu-recolhido .conteudo-principal {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .menu {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        bottom: auto !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 10px 12px !important;
+        z-index: 1 !important;
+    }
+
+    .menu-logo {
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        min-height: 0 !important;
+        gap: 10px !important;
+        margin: 0 0 8px !important;
+        padding: 2px 0 !important;
+        text-align: left !important;
+    }
+
+    .brasao {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .menu-logo .logo-prefeitura {
+        width: auto !important;
+        text-align: left !important;
+        font-size: 13px !important;
+    }
+
+    .menu .btn-toggle-menu,
+    body.menu-recolhido .menu .btn-toggle-menu {
+        width: 100% !important;
+        min-height: 40px !important;
+        height: 40px !important;
+        justify-content: center !important;
+    }
+
+    .menu .btn-toggle-menu .texto-toggle,
+    body.menu-recolhido .menu .btn-toggle-menu .texto-toggle {
+        display: inline !important;
+    }
+
+    .menu .menu-botoes,
+    body.menu-recolhido .menu .menu-botoes {
+        display: none !important;
+    }
+
+    .menu .barra-pesquisa,
+    body.menu-recolhido .menu .barra-pesquisa {
+        display: none !important;
+    }
+
+    body.menu-aberto-mobile .menu .menu-botoes {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 4px !important;
+        margin-top: 8px;
+    }
+
+    body.menu-aberto-mobile .menu .barra-pesquisa {
+        display: flex !important;
+        margin: 8px 0 0 !important;
+    }
+
+    .menu .item-menu,
+    body.menu-recolhido .menu .item-menu {
+        width: auto !important;
+        min-width: 0 !important;
+        height: auto !important;
+        min-height: 44px !important;
+        padding: 6px !important;
+        gap: 6px !important;
+        white-space: normal !important;
+    }
+
+    .menu .item-menu span,
+    body.menu-recolhido .menu .item-menu span {
+        display: inline-block !important;
+        white-space: normal !important;
+    }
+
+    body.menu-recolhido .menu .item-menu img {
+        margin: 0 !important;
+    }
+
+    .menu-logo .logo-prefeitura span {
+        white-space: normal;
+    }
+
+    .cartoes {
+        grid-template-columns: 1fr;
+    }
+}
+
+#corpo-tabela-impressoras tr {
+    cursor: pointer;
+}
+
+#corpo-tabela-impressoras tr:focus-visible {
+    outline: 3px solid #0d6efd;
+    outline-offset: -3px;
+}
+
+.ficha-impressora {
+    width: min(620px, calc(100% - 32px));
+    max-height: min(85vh, 720px);
+    padding: 0;
+    border: 0;
+    border-radius: 16px;
+    color: #212529;
+    box-shadow: 0 18px 60px rgba(0, 0, 0, 0.25);
+}
+
+.ficha-impressora::backdrop {
+    background: rgba(15, 23, 42, 0.58);
+}
+
+.ficha-impressora-cabecalho {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 22px 24px;
+    color: #fff;
+    background: #17365d;
+}
+
+.ficha-impressora-cabecalho p {
+    margin: 0 0 5px;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.85rem;
+}
+
+.ficha-impressora-cabecalho h2 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.ficha-impressora-fechar {
+    width: 36px;
+    height: 36px;
+    border: 0;
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.ficha-impressora-dados {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    padding: 22px 24px 12px;
+}
+
+.ficha-impressora-campo {
+    min-width: 0;
+    padding: 13px 15px;
+    border: 1px solid #e3e8ef;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+.ficha-impressora-campo > span {
+    display: block;
+    margin-bottom: 5px;
+    color: #5b6573;
+    font-size: 0.82rem;
+}
+
+.ficha-impressora-campo > strong {
+    display: block;
+    overflow-wrap: anywhere;
+}
+
+.ficha-impressora-contador {
+    grid-column: 1 / -1;
+    border-color: #b7d5fb;
+    background: #eef6ff;
+}
+
+.ficha-impressora-contador strong {
+    color: #0b5ed7;
+    font-size: 1.3rem;
+}
+
+.ficha-impressora-toner-item {
+    display: inline-block;
+    margin: 2px 4px 2px 0;
+    padding: 4px 8px;
+    border-radius: 999px;
+    color: #174b35;
+    background: #dff3e8;
+    font-size: 0.85rem;
+}
+
+.ficha-impressora-mensagem {
+    min-height: 1.5em;
+    margin: 0;
+    padding: 0 24px 18px;
+    color: #5b6573;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 520px) {
+    .ficha-impressora-dados {
+        grid-template-columns: 1fr;
+        padding: 16px;
+    }
+
+    .ficha-impressora-contador {
+        grid-column: auto;
+    }
+
+    .ficha-impressora-mensagem {
+        padding: 0 16px 16px;
+    }
+}
+/* Ajusta o conteúdo principal à largura da barra lateral */
+.conteudo-principal {
+    margin-left: 230px;
+    width: calc(100% - 230px);
+    min-width: 0;
+    box-sizing: border-box;
+    transition: margin-left 0.3s ease, width 0.3s ease;
+}
+
+/* Quando a barra lateral estiver recolhida */
+body.menu-recolhido .conteudo-principal {
+    margin-left: 72px;
+    width: calc(100% - 72px);
+}
+
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    min-height: 100vh !important;
+    overflow-x: hidden !important;
+}
+
+.menu {
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 230px !important;
+    height: 100vh !important;
+    z-index: 1050 !important;
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-sizing: border-box !important;
+}
+
+body.menu-recolhido .menu {
+    width: 72px !important;
+    padding: 14px 8px !important;
+}
+
+.conteudo-principal {
+    margin-left: 230px !important;
+    width: calc(100% - 230px) !important;
+    min-height: 100vh !important;
+    box-sizing: border-box !important;
+    transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    position: relative !important;
+    z-index: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+body.menu-recolhido .conteudo-principal {
+    margin-left: 72px !important;
+    width: calc(100% - 72px) !important;
+}
+
+.cabecalho {
+    width: 100% !important;
+    padding: 24px 30px !important;
+    box-sizing: border-box !important;
+}
+
+.container-fluid {
+    width: 100% !important;
+    padding: 20px 25px !important;
+    box-sizing: border-box !important;
+}
+
+@media (max-width: 768px) {
+    .menu,
+    body.menu-recolhido .menu {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        bottom: auto !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 10px 12px !important;
+        z-index: 1 !important;
+    }
+
+    .conteudo-principal,
+    body.menu-recolhido .conteudo-principal {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+}

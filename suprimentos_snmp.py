@@ -13,7 +13,11 @@ from pathlib import Path
 from dotenv import load_dotenv
 from pysnmp.hlapi.v1arch.asyncio import *
 
-from estoque import registrar_evento_impressora, registrar_nivel_toner
+from estoque import (
+    conectar,
+    registrar_evento_impressora,
+    registrar_nivel_toner,
+)
 
 
 # ==========================================================
@@ -197,6 +201,28 @@ def registrar_toner_6(
     salvar_historico_toner_6(
         historico_toner_6
     )
+
+
+def limpar_historico_toner_6(ip, toner):
+    global historico_toner_6
+
+    chave_ip = str(ip).strip()
+    chave_toner = str(toner).strip().casefold()
+    historico_atualizado = [
+        evento
+        for evento in historico_toner_6
+        if not (
+            str(evento.get("ip", "")).strip() == chave_ip
+            and str(evento.get("toner", "")).strip().casefold()
+            == chave_toner
+        )
+    ]
+
+    if len(historico_atualizado) != len(historico_toner_6):
+        historico_toner_6 = historico_atualizado
+        salvar_historico_toner_6(historico_toner_6)
+
+
 # ==========================================================
 # VERIFICA TONERS COM LEITURA NÃO CONFIÁVEL
 # ==========================================================
@@ -209,6 +235,19 @@ def verificar_toners_nao_confiaveis():
     nao_confiaveis = set()
 
     registros = {}
+    hoje = datetime.now().date()
+
+    conexao = conectar()
+    try:
+        niveis_atuais = {
+            (ip, cor.strip().casefold()): (percentual, data_atualizacao)
+            for ip, cor, percentual, data_atualizacao in conexao.execute("""
+                SELECT ip_impressora, cor, percentual, atualizado_em
+                FROM niveis_toner
+            """).fetchall()
+        }
+    finally:
+        conexao.close()
 
     for evento in historico_toner_6:
 
@@ -217,6 +256,14 @@ def verificar_toners_nao_confiaveis():
         data = evento.get("data")
 
         if not ip or not toner or not data:
+            continue
+
+        # A sequência histórica só é válida enquanto a leitura atual
+        # continuar exatamente em 6%.
+        leitura_atual = niveis_atuais.get(
+            (ip, toner.strip().casefold())
+        )
+        if not leitura_atual or leitura_atual[0] != 6:
             continue
 
         chave = (ip, toner)
@@ -231,6 +278,17 @@ def verificar_toners_nao_confiaveis():
         except ValueError:
 
             continue
+
+        if leitura_atual[1]:
+            try:
+                data_atualizacao = datetime.strptime(
+                    leitura_atual[1],
+                    "%d/%m/%Y %H:%M:%S"
+                ).date()
+            except ValueError:
+                continue
+            if data_atualizacao != hoje:
+                continue
 
         if chave not in registros:
             registros[chave] = set()
@@ -260,7 +318,10 @@ def verificar_toners_nao_confiaveis():
 
                 dias_consecutivos = 1
 
-            if dias_consecutivos >= 5:
+            if (
+                datas_ordenadas[i] == hoje
+                and dias_consecutivos >= 5
+            ):
 
                 nao_confiaveis.add(chave)
 
@@ -596,6 +657,90 @@ def salvar_offline(dados):
 # ==========================================================
 # CONSULTA SNMP
 # ==========================================================
+
+OID_CONTADOR_PAGINAS = "1.3.6.1.2.1.43.10.2.1.4"
+
+
+async def consultar_contador_paginas(ip):
+
+    contadores = []
+
+    try:
+        with SnmpDispatcher() as snmp:
+            transporte = await UdpTransportTarget.create(
+                (ip, 161),
+                timeout=1.5,
+                retries=0
+            )
+
+            async for erro, status, indice, dados in walk_cmd(
+                snmp,
+                CommunityData(SNMP_COMMUNITY),
+                transporte,
+                (OID_CONTADOR_PAGINAS, None)
+            ):
+                if erro:
+                    raise RuntimeError(
+                        f"Falha de comunicação SNMP: {erro}"
+                    )
+
+                if status:
+                    raise RuntimeError(
+                        f"Erro SNMP: {status.prettyPrint()}"
+                    )
+
+                for oid, valor in dados:
+                    oid_texto = str(oid)
+
+                    if not oid_texto.startswith(
+                        OID_CONTADOR_PAGINAS + "."
+                    ):
+                        break
+
+                    try:
+                        contador = int(valor.prettyPrint())
+                    except (TypeError, ValueError):
+                        continue
+
+                    if contador >= 0:
+                        sufixo = oid_texto[
+                            len(OID_CONTADOR_PAGINAS) + 1:
+                        ]
+                        indice_oid = tuple(
+                            int(parte)
+                            for parte in sufixo.split(".")
+                            if parte.isdigit()
+                        )
+                        contadores.append(
+                            (indice_oid, contador, oid_texto)
+                        )
+
+        if not contadores:
+            raise RuntimeError(
+                "A impressora não disponibilizou o contador padrão de páginas via SNMP."
+            )
+
+        _, contador, oid = min(
+            contadores,
+            key=lambda item: item[0]
+        )
+
+        return {
+            "contador": contador,
+            "oid": oid
+        }
+
+    except RuntimeError:
+        raise
+    except Exception as erro:
+        logger.exception(
+            "Erro ao consultar contador de páginas via SNMP no IP %s",
+            ip
+        )
+        raise RuntimeError(
+            "Não foi possível consultar o contador de páginas via SNMP."
+        ) from erro
+
 
 async def consultar(
     ip,
@@ -1418,10 +1563,11 @@ async def main():
             try:
                 baixa_automatica = registrar_nivel_toner(
                     ip,
-                    modelo_planilha,
+                    descricao_planilha,
                     nome_toner,
                     porcentagem,
-                    patrimonio
+                    patrimonio,
+                    nome_impressora
                 )
             except sqlite3.Error:
                 logger.exception(
@@ -1447,8 +1593,23 @@ async def main():
                     "mas a baixa não foi registrada: %s. Verifique o "
                     "modelo compatível cadastrado para o toner %s.",
                     ip,
-                    modelo_planilha,
+                    descricao_planilha,
                     baixa_automatica["status"],
+                    nome_toner
+                )
+
+
+            # Qualquer leitura diferente de 6% encerra a sequência
+            # de leituras estáveis e torna o toner confiável novamente.
+            if porcentagem == 6:
+                registrar_toner_6(
+                    ip,
+                    nome_impressora,
+                    nome_toner
+                )
+            else:
+                limpar_historico_toner_6(
+                    ip,
                     nome_toner
                 )
 
@@ -1479,19 +1640,6 @@ async def main():
                     )
 
                 continue
-
-
-            # --------------------------------------------------
-            # REGISTRA SOMENTE TONER EXATAMENTE EM 6%
-            # --------------------------------------------------
-
-            if porcentagem == 6:
-
-                registrar_toner_6(
-                    ip,
-                    nome_impressora,
-                    nome_toner
-                )
 
 
             # --------------------------------------------------
@@ -1640,7 +1788,7 @@ def extrair_modelo_planilha(descricao):
     ).strip()
 
     modelo_kyocera = re.search(
-        r"\bM\d{3,5}[A-Z0-9-]*",
+        r"(?<![A-Z0-9])(?:[A-Z]{1,3}\d{3,5}[A-Z0-9]*|\d{3,5}[A-Z]{1,3}[A-Z0-9]*)(?![A-Z0-9])",
         descricao,
         re.IGNORECASE
     )

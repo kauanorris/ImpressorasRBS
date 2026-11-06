@@ -7,20 +7,32 @@
         "inicio": "26/10/2026 10:58:15",
         "registrado": true
     },
-    "10.60.0.2": {
-        "inicio": "05/11/2026 09:41:29",
-        "registrado": false
-    },
     "10.40.0.1": {
         "inicio": "05/11/2026 09:41:49",
-        "registrado": false
-    },
-    "10.52.0.5": {
-        "inicio": "05/11/2026 09:42:19",
-        "registrado": false
+        "registrado": true
     },
     "10.63.0.1": {
         "inicio": "05/11/2026 12:15:45",
+        "registrado": false
+    },
+    "10.67.0.1": {
+        "inicio": "06/11/2026 08:51:33",
+        "registrado": false
+    },
+    "10.36.0.1": {
+        "inicio": "06/11/2026 08:51:40",
+        "registrado": false
+    },
+    "10.25.0.1": {
+        "inicio": "06/11/2026 08:51:50",
+        "registrado": false
+    },
+    "10.52.0.2": {
+        "inicio": "06/11/2026 08:51:53",
+        "registrado": false
+    },
+    "10.25.0.2": {
+        "inicio": "06/11/2026 08:52:00",
         "registrado": false
     }
 }

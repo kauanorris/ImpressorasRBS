@@ -1,11 +1,21 @@
+import os
 import smtplib
 from email.message import EmailMessage
+from pathlib import Path
+
+from dotenv import load_dotenv
 
 
-REMETENTE = "elisdaianecoutinho@gmail.com"
-SENHA_APP = "fmqa znuw ukvj tosm"
+load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
-DESTINATARIO = "elisdaianecoutinho@gmail.com"
+REMETENTE = os.getenv("GMAIL_REMETENTE")
+SENHA_APP = os.getenv("GMAIL_SENHA_APP")
+DESTINATARIO = os.getenv("EMAIL_SEMED", REMETENTE)
+
+if not REMETENTE or not SENHA_APP or not DESTINATARIO:
+    raise RuntimeError(
+        "Configure GMAIL_REMETENTE, GMAIL_SENHA_APP e EMAIL_SEMED no arquivo .env."
+    )
 
 
 mensagem = EmailMessage()

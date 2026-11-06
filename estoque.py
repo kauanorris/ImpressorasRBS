@@ -93,12 +93,27 @@ def criar_banco():
 
             responsavel TEXT,
 
+            local_impressora TEXT,
+
             observacao TEXT,
 
             FOREIGN KEY (toner_id)
                 REFERENCES toners(id)
         )
     """)
+
+    colunas_movimentacoes = {
+        coluna[1]
+        for coluna in cursor.execute(
+            "PRAGMA table_info(movimentacoes)"
+        ).fetchall()
+    }
+
+    if "local_impressora" not in colunas_movimentacoes:
+        cursor.execute("""
+            ALTER TABLE movimentacoes
+            ADD COLUMN local_impressora TEXT
+        """)
 
 
     # ==========================================
@@ -173,7 +188,14 @@ def criar_banco():
 # CADASTRA UM NOVO TONER
 # ==========================================================
 
-def cadastrar_toner(marca, codigo, cor, estoque=0, estoque_minimo=1):
+def cadastrar_toner(
+    marca,
+    codigo,
+    cor,
+    estoque=0,
+    estoque_minimo=1,
+    modelos_compativeis=""
+):
 
     conexao = conectar()
     cursor = conexao.cursor()
@@ -209,11 +231,17 @@ def cadastrar_toner(marca, codigo, cor, estoque=0, estoque_minimo=1):
             # Atualiza o estoque do toner existente
             cursor.execute("""
                 UPDATE toners
-                SET estoque = ?, estoque_minimo = ?
+                SET estoque = ?, estoque_minimo = ?,
+                    modelos_compativeis = CASE
+                        WHEN TRIM(?) = '' THEN modelos_compativeis
+                        ELSE ?
+                    END
                 WHERE id = ?
             """, (
                 novo_saldo,
                 int(estoque_minimo),
+                modelos_compativeis,
+                modelos_compativeis.strip(),
                 toner_id
             ))
 
@@ -238,12 +266,13 @@ def cadastrar_toner(marca, codigo, cor, estoque=0, estoque_minimo=1):
         # Se não existir, cadastra um novo toner
         cursor.execute("""
             INSERT INTO toners
-            (marca, codigo, cor, estoque, estoque_minimo)
-            VALUES (?, ?, ?, ?, ?)
+            (marca, codigo, cor, modelos_compativeis, estoque, estoque_minimo)
+            VALUES (?, ?, ?, ?, ?, ?)
         """, (
             marca,
             codigo,
             cor,
+            modelos_compativeis.strip(),
             int(estoque),
             int(estoque_minimo)
         ))
@@ -466,7 +495,8 @@ def _registrar_saida_no_cursor(
     ip_impressora,
     patrimonio,
     responsavel,
-    observacao
+    observacao,
+    local_impressora=None
 ):
     if quantidade <= 0:
         raise ValueError("A quantidade deve ser maior que zero.")
@@ -494,9 +524,9 @@ def _registrar_saida_no_cursor(
     cursor.execute("""
         INSERT INTO movimentacoes (
             toner_id, tipo, quantidade, data, ip_impressora,
-            patrimonio, responsavel, observacao
+            patrimonio, responsavel, local_impressora, observacao
         )
-        VALUES (?, 'SAIDA', ?, ?, ?, ?, ?, ?)
+        VALUES (?, 'SAIDA', ?, ?, ?, ?, ?, ?, ?)
     """, (
         toner_id,
         quantidade,
@@ -504,6 +534,7 @@ def _registrar_saida_no_cursor(
         ip_impressora,
         patrimonio,
         responsavel,
+        local_impressora,
         observacao
     ))
 
@@ -527,10 +558,17 @@ def _registrar_saida_no_cursor(
 
 
 def _modelos_da_descricao(descricao):
-    return {
-        modelo.upper()
-        for modelo in re.findall(r"\bM\d{3,5}", descricao.upper())
-    }
+    modelos = set()
+    for modelo in re.findall(
+        r"(?<![A-Z0-9])(?:[A-Z]{1,3}\d{3,5}[A-Z0-9]*|\d{3,5}[A-Z]{1,3}[A-Z0-9]*)(?![A-Z0-9])",
+        descricao.upper()
+    ):
+        modelos.add(modelo)
+        familia = re.match(r"([A-Z]{1,3}\d{3,5})", modelo)
+        if familia:
+            modelos.add(familia.group(1))
+
+    return modelos
 
 
 def registrar_nivel_toner(
@@ -538,7 +576,8 @@ def registrar_nivel_toner(
     modelo_impressora,
     cor,
     percentual,
-    patrimonio=None
+    patrimonio=None,
+    local_impressora=None
 ):
     if not ip_impressora or not cor:
         raise ValueError("IP e cor do toner são obrigatórios.")
@@ -558,26 +597,17 @@ def registrar_nivel_toner(
         """, (ip_impressora, cor))
         leitura_anterior = cursor.fetchone()
 
-        cursor.execute("""
-            INSERT INTO niveis_toner (
-                ip_impressora, cor, percentual, atualizado_em
-            )
-            VALUES (?, ?, ?, ?)
-            ON CONFLICT(ip_impressora, cor) DO UPDATE SET
-                percentual = excluded.percentual,
-                atualizado_em = excluded.atualizado_em
-        """, (
-            ip_impressora,
-            cor,
-            percentual,
-            datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        ))
-
         if (
             not leitura_anterior
             or leitura_anterior[0] > 10
             or percentual < 90
         ):
+            _salvar_nivel_toner(
+                cursor,
+                ip_impressora,
+                cor,
+                percentual
+            )
             conexao.commit()
             return None
 
@@ -627,7 +657,14 @@ def registrar_nivel_toner(
             ip_impressora,
             patrimonio,
             "Monitoramento automático",
-            observacao
+            observacao,
+            local_impressora
+        )
+        _salvar_nivel_toner(
+            cursor,
+            ip_impressora,
+            cor,
+            percentual
         )
         conexao.commit()
 
@@ -647,6 +684,23 @@ def registrar_nivel_toner(
 
     finally:
         conexao.close()
+
+
+def _salvar_nivel_toner(cursor, ip_impressora, cor, percentual):
+    cursor.execute("""
+        INSERT INTO niveis_toner (
+            ip_impressora, cor, percentual, atualizado_em
+        )
+        VALUES (?, ?, ?, ?)
+        ON CONFLICT(ip_impressora, cor) DO UPDATE SET
+            percentual = excluded.percentual,
+            atualizado_em = excluded.atualizado_em
+    """, (
+        ip_impressora,
+        cor,
+        percentual,
+        datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+    ))
 
 def ajustar_estoque_manual(toner_id, acao):
     conexao = conectar()

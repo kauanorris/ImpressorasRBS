@@ -233,6 +233,23 @@ atualizarHorario();
                 30000
             );
 
+           let secaoMenuAtiva = null;
+
+           function alternarSecaoMenu(secao, abrir) {
+                if (secaoMenuAtiva === secao) {
+                    secaoMenuAtiva = null;
+                    esconderAreas();
+                    window.scrollTo({
+                        top: 0,
+                        behavior: "smooth"
+                    });
+                    return;
+                }
+
+                secaoMenuAtiva = secao;
+                abrir();
+            }
+
            function esconderAreas() {
 
                 const ids = [
@@ -240,6 +257,8 @@ atualizarHorario();
                     "area-lista",
                     "area-estoque",
                     "area-tabela-estoque",
+                    "formulario-toner",
+                    "formulario-saida-toner",
                     "area-historico"
                 ];
 
@@ -1492,12 +1511,9 @@ atualizarHorario();
 
             }
             
-            function fecharEstoque() {
-
-            voltarInicio();
-            }
-
             async function mostrarhistorico() {
+
+                esconderAreas();
 
                  try {
 
@@ -1516,9 +1532,9 @@ atualizarHorario();
 
                     const dados = JSON.parse(texto);
 
-                    document.getElementById("area-estoque").style.display = "none";
-                    document.getElementById("area-pastas").style.display = "none";
-                    document.getElementById("area-lista").style.display = "none";
+                    if (secaoMenuAtiva !== "historico") {
+                        return;
+                    }
 
                     let areahistorico =
                         document.getElementById("area-historico");
@@ -1552,8 +1568,13 @@ atualizarHorario();
 
                         if (
                             tipo === "ENTRADAS" ||
-                            tipo === "SAIDAS"
+                            tipo === "SAIDAS" ||
+                            tipo === "AUTOMATICAS"
                         ) {
+                            const colunaLocal =
+                                tipo === "AUTOMATICAS"
+                                    ? "<th>Local</th>"
+                                    : "";
 
                             return `
                                 <div class="table-responsive">
@@ -1568,6 +1589,7 @@ atualizarHorario();
                                                 <th>Toner</th>
                                                 <th>Quantidade</th>
                                                 <th>IP</th>
+                                                ${colunaLocal}
                                                 <th>Patrimônio</th>
                                                 <th>Responsável</th>
                                                 <th>Observação</th>
@@ -1600,6 +1622,12 @@ atualizarHorario();
                                                     <td>
                                                         ${item.ip_impressora || "-"}
                                                     </td>
+
+                                                    ${
+                                                        tipo === "AUTOMATICAS"
+                                                            ? `<td>${item.local_impressora || "-"}</td>`
+                                                            : ""
+                                                    }
 
                                                     <td>
                                                         ${item.patrimonio || "-"}
@@ -1689,14 +1717,6 @@ atualizarHorario();
                             <h3>
                                 Histórico de movimentações
                             </h3>
-
-                            <button
-                                class="btn btn-secondary"
-                                onclick="fecharhistorico()">
-
-                                ← Voltar
-
-                            </button>
 
                         </div>
 
@@ -1789,7 +1809,7 @@ atualizarHorario();
 
                             ${criarTabela(
                                 dados.saidas_automaticas,
-                                "SAIDAS"
+                                "AUTOMATICAS"
                             )}
 
                         </div>
@@ -1861,18 +1881,12 @@ atualizarHorario();
                         erro
                     );
 
-                    alert(
-                        "Não foi possível carregar o Histórico."
-                    );
-            
+                    if (secaoMenuAtiva === "historico") {
+                        alert(
+                            "Não foi possível carregar o Histórico."
+                        );
+                    }
                 }
-            }    
-
-            function fecharhistorico(){
-
-
-              voltarInicio()
-
             }
 
             /* ======================================================
@@ -2515,13 +2529,49 @@ BARRA LATERAL RECOLHÍVEL
 
 function alternarMenu() {
     const corpo = document.body;
-    corpo.classList.toggle("menu-recolhido");
-    const estaRecolhido = corpo.classList.contains("menu-recolhido");
-    localStorage.setItem("menu_recolhido", estaRecolhido ? "1" : "0");
-
     const btnToggle = document.getElementById("btn-toggle-menu");
+
+    if (window.matchMedia("(max-width: 768px)").matches) {
+        const menuAberto = corpo.classList.toggle("menu-aberto-mobile");
+        const acao = menuAberto ? "Fechar" : "Abrir";
+
+        if (btnToggle) {
+            btnToggle.setAttribute("aria-expanded", String(menuAberto));
+            btnToggle.setAttribute("aria-label", `${acao} menu`);
+            btnToggle.setAttribute("title", `${acao} menu`);
+            const texto = btnToggle.querySelector(".texto-toggle");
+            if (texto) {
+                texto.textContent = `${acao} Menu`;
+            }
+        }
+
+        return;
+    }
+
+    corpo.classList.remove("menu-aberto-mobile");
+    const estaRecolhido = corpo.classList.toggle("menu-recolhido");
+
+    try {
+        localStorage.setItem("menu_recolhido", estaRecolhido ? "1" : "0");
+    } catch (erro) {
+        console.error("Não foi possível salvar o estado do menu:", erro);
+    }
+
     if (btnToggle) {
-        btnToggle.title = estaRecolhido ? "Expandir menu" : "Recolher menu";
+        btnToggle.setAttribute("aria-expanded", String(!estaRecolhido));
+        btnToggle.setAttribute(
+            "title",
+            estaRecolhido ? "Expandir menu lateral" : "Recolher menu lateral"
+        );
+        btnToggle.setAttribute(
+            "aria-label",
+            estaRecolhido ? "Expandir menu lateral" : "Recolher menu lateral"
+        );
+        const texto = btnToggle.querySelector(".texto-toggle");
+        if (texto) {
+            texto.textContent =
+                estaRecolhido ? "Expandir Menu" : "Recolher Menu";
+        }
     }
 }
 
@@ -2531,24 +2581,147 @@ function focarPesquisa() {
     }
     const inputPesquisa = document.getElementById("pesquisa");
     if (inputPesquisa) {
-        setTimeout(() => inputPesquisa.focus(), 180);
+        setTimeout(() => inputPesquisa.focus(), 150);
     }
 }
-
-// Restaura estado salvo do menu ao carregar a página
-document.addEventListener("DOMContentLoaded", function () {
-    const salvo = localStorage.getItem("menu_recolhido");
-    if (salvo === "1") {
-        document.body.classList.add("menu-recolhido");
-        const btnToggle = document.getElementById("btn-toggle-menu");
-        if (btnToggle) {
-            btnToggle.title = "Expandir menu";
-        }
-    }
-});
-
 
 window.alternarMenu = alternarMenu;
 window.focarPesquisa = focarPesquisa;
 
+let consultaContadorAtual = null;
+let idConsultaContador = 0;
 
+async function abrirFichaImpressora(linha) {
+    const ficha = document.getElementById("ficha-impressora");
+    const ip = (linha.dataset.ip || "").trim();
+
+    if (!ficha || !ip) {
+        console.error("Não foi possível abrir a ficha da impressora.");
+        return;
+    }
+
+    if (consultaContadorAtual) {
+        consultaContadorAtual.abort();
+    }
+
+    const idConsulta = ++idConsultaContador;
+    consultaContadorAtual = new AbortController();
+
+    document.getElementById("ficha-impressora-titulo").textContent =
+        linha.dataset.setor || linha.dataset.modelo || "Impressora";
+    document.getElementById("ficha-impressora-setor").textContent =
+        linha.dataset.setor || "-";
+    document.getElementById("ficha-impressora-ip").textContent = ip;
+    document.getElementById("ficha-impressora-patrimonio").textContent =
+        linha.dataset.patrimonio || "Não informado";
+    document.getElementById("ficha-impressora-modelo").textContent =
+        linha.dataset.modelo || "Não informado";
+    document.getElementById("ficha-impressora-status").textContent =
+        linha.dataset.status || "Não informado";
+    document.getElementById("ficha-impressora-toner").textContent =
+        "Consultando cadastro...";
+    document.getElementById("ficha-impressora-contador").textContent =
+        "Consultando impressora...";
+    document.getElementById("ficha-impressora-mensagem").textContent = "";
+
+    if (!ficha.open) {
+        ficha.showModal();
+    }
+
+    try {
+        const resposta = await fetch(
+            `/api/impressoras/${encodeURIComponent(ip)}/contador`,
+            { signal: consultaContadorAtual.signal }
+        );
+        const dados = await resposta.json();
+
+        if (!resposta.ok) {
+            throw new Error(
+                dados.erro || `Erro HTTP ${resposta.status}`
+            );
+        }
+
+        if (idConsulta !== idConsultaContador || !ficha.open) {
+            return;
+        }
+
+        const areaToner = document.getElementById(
+            "ficha-impressora-toner"
+        );
+        areaToner.replaceChildren();
+
+        if (!dados.toners || dados.toners.length === 0) {
+            areaToner.textContent =
+                "Nenhum toner compatível cadastrado para este modelo.";
+        } else {
+            dados.toners.forEach(function(toner) {
+                const item = document.createElement("span");
+                item.className = "ficha-impressora-toner-item";
+                item.textContent =
+                    `${toner.marca} ${toner.codigo} (${toner.cor})`;
+                areaToner.appendChild(item);
+            });
+        }
+
+        if (!Number.isSafeInteger(dados.contador) || dados.contador < 0) {
+            document.getElementById("ficha-impressora-contador").textContent =
+                "Contador indisponível";
+            document.getElementById("ficha-impressora-mensagem").textContent =
+                dados.erro || "A impressora não informou o contador de páginas.";
+            return;
+        }
+
+        document.getElementById("ficha-impressora-contador").textContent =
+            `${dados.contador.toLocaleString("pt-BR")} páginas`;
+        document.getElementById("ficha-impressora-mensagem").textContent =
+            "Contador lido diretamente da impressora via SNMP.";
+    } catch (erro) {
+        if (erro.name === "AbortError") {
+            return;
+        }
+
+        if (idConsulta !== idConsultaContador || !ficha.open) {
+            return;
+        }
+
+        console.error("Erro ao consultar ficha da impressora:", erro);
+        document.getElementById("ficha-impressora-contador").textContent =
+            "Contador indisponível";
+        document.getElementById("ficha-impressora-toner").textContent =
+            "Não foi possível carregar os toners compatíveis.";
+        document.getElementById("ficha-impressora-mensagem").textContent =
+            erro.message;
+    }
+}
+
+function abrirFichaImpressoraComTeclado(evento, linha) {
+    if (evento.key === "Enter" || evento.key === " ") {
+        evento.preventDefault();
+        abrirFichaImpressora(linha);
+    }
+}
+
+function fecharFichaImpressora() {
+    const ficha = document.getElementById("ficha-impressora");
+    if (ficha && ficha.open) {
+        ficha.close();
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const ficha = document.getElementById("ficha-impressora");
+    if (ficha) {
+        ficha.addEventListener("close", function() {
+            idConsultaContador++;
+            if (consultaContadorAtual) {
+                consultaContadorAtual.abort();
+                consultaContadorAtual = null;
+            }
+        });
+    }
+});
+
+window.abrirFichaImpressora = abrirFichaImpressora;
+window.abrirFichaImpressoraComTeclado =
+    abrirFichaImpressoraComTeclado;
+window.fecharFichaImpressora = fecharFichaImpressora;

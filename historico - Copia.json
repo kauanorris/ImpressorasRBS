@@ -1,0 +1,3692 @@
+[
+    {
+        "data": "04/09/2026 09:07:12",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1163minutos offline."
+    },
+    {
+        "data": "04/09/2026 09:07:30",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1233minutos offline."
+    },
+    {
+        "data": "04/09/2026 09:59:55",
+        "ip": "10.6.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1141minutos offline."
+    },
+    {
+        "data": "04/09/2026 11:01:25",
+        "ip": "10.23.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2592minutos offline."
+    },
+    {
+        "data": "04/09/2026 13:34:49",
+        "ip": "10.6.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 135minutos offline."
+    },
+    {
+        "data": "11/09/2026 13:39:19",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 10185minutos offline."
+    },
+    {
+        "data": "11/09/2026 13:39:20",
+        "ip": "10.54.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 10210minutos offline."
+    },
+    {
+        "data": "11/09/2026 13:39:23",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 10189minutos offline."
+    },
+    {
+        "data": "11/09/2026 13:39:27",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 10210minutos offline."
+    },
+    {
+        "data": "11/09/2026 13:39:27",
+        "ip": "10.54.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 10210minutos offline."
+    },
+    {
+        "data": "11/09/2026 13:39:32",
+        "ip": "10.54.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 10352minutos offline."
+    },
+    {
+        "data": "11/09/2026 13:39:38",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 10352minutos offline."
+    },
+    {
+        "data": "11/09/2026 15:08:49",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 10441minutos offline."
+    },
+    {
+        "data": "11/09/2026 15:19:14",
+        "ip": "10.59.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 100minutos offline."
+    },
+    {
+        "data": "11/09/2026 16:14:00",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 154minutos offline."
+    },
+    {
+        "data": "11/09/2026 16:29:05",
+        "ip": "10.22.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 169minutos offline."
+    },
+    {
+        "data": "11/09/2026 16:29:13",
+        "ip": "10.22.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 169minutos offline."
+    },
+    {
+        "data": "11/09/2026 16:30:46",
+        "ip": "10.38.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 10381minutos offline."
+    },
+    {
+        "data": "11/09/2026 16:33:28",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 174minutos offline."
+    },
+    {
+        "data": "11/09/2026 16:33:37",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 174minutos offline."
+    },
+    {
+        "data": "11/09/2026 17:33:49",
+        "ip": "10.39.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 234minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:45",
+        "ip": "10.23.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3851minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:46",
+        "ip": "10.27.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3876minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:47",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3786minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:48",
+        "ip": "10.38.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3550minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:51",
+        "ip": "10.47.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3887minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:51",
+        "ip": "10.41.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3836minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:52",
+        "ip": "10.0.0.21",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3990minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:53",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3796minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:54",
+        "ip": "10.22.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3550minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:56",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3851minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:56",
+        "ip": "10.26.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3856minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:57",
+        "ip": "10.27.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3849minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:09:59",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3842minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:00",
+        "ip": "10.23.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3876minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:00",
+        "ip": "10.54.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3858minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:01",
+        "ip": "10.31.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3836minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:03",
+        "ip": "10.22.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3551minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:03",
+        "ip": "10.17.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3851minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:04",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3935minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:11",
+        "ip": "10.6.0.8",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3805minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:12",
+        "ip": "10.55.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3859minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:13",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3843minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:14",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3551minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:16",
+        "ip": "10.58.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3876minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:16",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3970minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:21",
+        "ip": "10.54.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3811minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:25",
+        "ip": "10.3.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3877minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:29",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3888minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:32",
+        "ip": "10.48.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3862minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:35",
+        "ip": "10.59.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3859minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:36",
+        "ip": "10.55.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3860minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:37",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3843minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:39",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3551minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:40",
+        "ip": "10.58.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3876minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:40",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3971minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:47",
+        "ip": "10.62.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3836minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:47",
+        "ip": "10.54.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3811minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:50",
+        "ip": "10.3.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3877minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:56",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3889minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:10:59",
+        "ip": "10.48.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3862minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:02",
+        "ip": "10.59.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3859minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:11",
+        "ip": "10.58.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3877minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:11",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3971minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:16",
+        "ip": "10.62.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3837minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:16",
+        "ip": "10.54.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3812minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:18",
+        "ip": "10.3.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3878minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:22",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3889minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:25",
+        "ip": "10.48.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3863minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:26",
+        "ip": "10.59.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3860minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:30",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3889minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:32",
+        "ip": "10.48.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3863minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:11:33",
+        "ip": "10.59.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3860minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:12:53",
+        "ip": "10.17.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3854minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:14:05",
+        "ip": "10.6.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3404minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:15:58",
+        "ip": "10.26.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3857minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:17:37",
+        "ip": "10.0.0.10",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3804minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:19:36",
+        "ip": "10.19.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3869minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:19:57",
+        "ip": "10.27.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3864minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:20:23",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3861minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:21:46",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3867minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:24:32",
+        "ip": "10.39.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3757minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:24:48",
+        "ip": "10.52.0.6",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3871minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:26:28",
+        "ip": "10.29.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3867minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:41:36",
+        "ip": "10.13.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3950minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:43:25",
+        "ip": "10.52.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3884minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:49:31",
+        "ip": "10.57.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3890minutos offline."
+    },
+    {
+        "data": "14/09/2026 08:56:46",
+        "ip": "10.11.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3848minutos offline."
+    },
+    {
+        "data": "14/09/2026 09:17:31",
+        "ip": "10.22.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 4057minutos offline."
+    },
+    {
+        "data": "14/09/2026 09:17:43",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3887minutos offline."
+    },
+    {
+        "data": "14/09/2026 09:52:45",
+        "ip": "10.54.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3918minutos offline."
+    },
+    {
+        "data": "14/09/2026 09:53:35",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3967minutos offline."
+    },
+    {
+        "data": "14/09/2026 10:02:33",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3978minutos offline."
+    },
+    {
+        "data": "14/09/2026 10:50:10",
+        "ip": "10.27.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 4037minutos offline."
+    },
+    {
+        "data": "14/09/2026 10:50:19",
+        "ip": "10.27.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 4037minutos offline."
+    },
+    {
+        "data": "14/09/2026 10:51:05",
+        "ip": "10.27.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 4038minutos offline."
+    },
+    {
+        "data": "14/09/2026 11:46:16",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 14558minutos offline."
+    },
+    {
+        "data": "14/09/2026 11:46:58",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 14559minutos offline."
+    },
+    {
+        "data": "14/09/2026 11:47:05",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 14559minutos offline."
+    },
+    {
+        "data": "14/09/2026 14:40:44",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 4286minutos offline."
+    },
+    {
+        "data": "14/09/2026 14:41:06",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 4287minutos offline."
+    },
+    {
+        "data": "14/09/2026 14:41:27",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 4287minutos offline."
+    },
+    {
+        "data": "14/09/2026 14:41:52",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 4288minutos offline."
+    },
+    {
+        "data": "14/09/2026 14:42:42",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 4288minutos offline."
+    },
+    {
+        "data": "15/09/2026 08:10:39",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1104minutos offline."
+    },
+    {
+        "data": "15/09/2026 08:10:39",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 5012minutos offline."
+    },
+    {
+        "data": "15/09/2026 08:11:07",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 15638minutos offline."
+    },
+    {
+        "data": "15/09/2026 08:11:18",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 15638minutos offline."
+    },
+    {
+        "data": "15/09/2026 08:11:24",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 15638minutos offline."
+    },
+    {
+        "data": "15/09/2026 08:11:32",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 15638minutos offline."
+    },
+    {
+        "data": "15/09/2026 08:33:57",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 15643minutos offline."
+    },
+    {
+        "data": "15/09/2026 11:00:21",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 72minutos offline."
+    },
+    {
+        "data": "15/09/2026 11:02:43",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 75minutos offline."
+    },
+    {
+        "data": "15/09/2026 16:46:24",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 84minutos offline."
+    },
+    {
+        "data": "15/09/2026 16:46:25",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 84minutos offline."
+    },
+    {
+        "data": "15/09/2026 16:47:05",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 85minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:24:33",
+        "ip": "10.22.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:24:36",
+        "ip": "10.22.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:24:37",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 125minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:24:46",
+        "ip": "10.22.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:24:50",
+        "ip": "10.22.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:00",
+        "ip": "10.22.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:05",
+        "ip": "10.22.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:07",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:11",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:18",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:23",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:27",
+        "ip": "10.22.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:28",
+        "ip": "10.22.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:32",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:34",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:34",
+        "ip": "10.38.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 127minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:41",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:43",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:53",
+        "ip": "10.38.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 128minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:25:53",
+        "ip": "10.38.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 128minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:26:04",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 127minutos offline."
+    },
+    {
+        "data": "15/09/2026 21:26:13",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 127minutos offline."
+    },
+    {
+        "data": "16/09/2026 07:59:28",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 67minutos offline."
+    },
+    {
+        "data": "16/09/2026 07:59:28",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 67minutos offline."
+    },
+    {
+        "data": "16/09/2026 07:59:29",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 67minutos offline."
+    },
+    {
+        "data": "16/09/2026 07:59:35",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 64minutos offline."
+    },
+    {
+        "data": "16/09/2026 07:59:35",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 64minutos offline."
+    },
+    {
+        "data": "16/09/2026 07:59:41",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 68minutos offline."
+    },
+    {
+        "data": "16/09/2026 07:59:47",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 64minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:00:16",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 68minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:00:17",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 68minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:00:22",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 65minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:00:23",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 65minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:03:55",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 72minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:03:56",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 72minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:03:57",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 72minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:04:45",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 73minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:04:52",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 73minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:04:54",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 73minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:05:06",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 74minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:05:08",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 74minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:05:09",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 73minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:05:11",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 73minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:05:20",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 73minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:05:34",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 73minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:05:35",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 74minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:05:36",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 74minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:06:59",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 75minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:07:25",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 76minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:07:26",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 76minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:07:48",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 76minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:20:41",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 89minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:24:01",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 88minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:24:38",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 93minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:35:31",
+        "ip": "10.0.0.12",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 100minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:36:31",
+        "ip": "10.0.0.12",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 101minutos offline."
+    },
+    {
+        "data": "16/09/2026 08:36:54",
+        "ip": "10.0.0.12",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 101minutos offline."
+    },
+    {
+        "data": "16/09/2026 09:12:51",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 141minutos offline."
+    },
+    {
+        "data": "16/09/2026 09:19:15",
+        "ip": "10.59.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 147minutos offline."
+    },
+    {
+        "data": "16/09/2026 09:30:38",
+        "ip": "10.52.0.7",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 155minutos offline."
+    },
+    {
+        "data": "16/09/2026 09:30:58",
+        "ip": "10.52.0.7",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 155minutos offline."
+    },
+    {
+        "data": "16/09/2026 09:40:33",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 165minutos offline."
+    },
+    {
+        "data": "16/09/2026 09:40:56",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 165minutos offline."
+    },
+    {
+        "data": "16/09/2026 10:13:31",
+        "ip": "10.58.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 198minutos offline."
+    },
+    {
+        "data": "16/09/2026 10:13:56",
+        "ip": "10.58.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 198minutos offline."
+    },
+    {
+        "data": "16/09/2026 12:58:36",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 120minutos offline."
+    },
+    {
+        "data": "16/09/2026 14:52:30",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 104minutos offline."
+    },
+    {
+        "data": "16/09/2026 16:26:35",
+        "ip": "10.0.0.12",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 328minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:01:35",
+        "ip": "10.47.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 846minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:02:04",
+        "ip": "10.41.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 800minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:06:24",
+        "ip": "10.39.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 833minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:15:05",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 864minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:26:04",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 897minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:32:52",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 877minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:33:21",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 877minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:42:12",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 900minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:52:37",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 903minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:59:23",
+        "ip": "10.62.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 894minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:59:24",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 894minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:59:28",
+        "ip": "10.62.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 894minutos offline."
+    },
+    {
+        "data": "17/09/2026 07:59:29",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 894minutos offline."
+    },
+    {
+        "data": "17/09/2026 08:01:57",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 925minutos offline."
+    },
+    {
+        "data": "17/09/2026 08:05:31",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 927minutos offline."
+    },
+    {
+        "data": "17/09/2026 08:06:58",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1266minutos offline."
+    },
+    {
+        "data": "17/09/2026 08:07:52",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 909minutos offline."
+    },
+    {
+        "data": "17/09/2026 08:12:04",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1116minutos offline."
+    },
+    {
+        "data": "17/09/2026 08:12:07",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 912minutos offline."
+    },
+    {
+        "data": "17/09/2026 08:14:09",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 920minutos offline."
+    },
+    {
+        "data": "17/09/2026 08:27:46",
+        "ip": "10.29.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 929minutos offline."
+    },
+    {
+        "data": "17/09/2026 08:55:56",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 975minutos offline."
+    },
+    {
+        "data": "17/09/2026 08:58:39",
+        "ip": "10.54.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 981minutos offline."
+    },
+    {
+        "data": "17/09/2026 09:54:47",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1376minutos offline."
+    },
+    {
+        "data": "17/09/2026 10:49:01",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1079minutos offline."
+    },
+    {
+        "data": "17/09/2026 10:54:54",
+        "ip": "10.39.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 221minutos offline."
+    },
+    {
+        "data": "18/09/2026 09:06:06",
+        "ip": "10.54.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2767minutos offline."
+    },
+    {
+        "data": "18/09/2026 09:08:01",
+        "ip": "10.6.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1284minutos offline."
+    },
+    {
+        "data": "18/09/2026 09:38:22",
+        "ip": "10.17.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1059minutos offline."
+    },
+    {
+        "data": "18/09/2026 12:51:47",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 142minutos offline."
+    },
+    {
+        "data": "18/09/2026 14:10:10",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 75minutos offline."
+    },
+    {
+        "data": "18/09/2026 14:10:44",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 76minutos offline."
+    },
+    {
+        "data": "18/09/2026 16:04:33",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 97minutos offline."
+    },
+    {
+        "data": "18/09/2026 20:46:02",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 268minutos offline."
+    },
+    {
+        "data": "18/09/2026 23:00:37",
+        "ip": "10.22.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 401minutos offline."
+    },
+    {
+        "data": "18/09/2026 23:00:38",
+        "ip": "10.22.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 401minutos offline."
+    },
+    {
+        "data": "18/09/2026 23:00:38",
+        "ip": "10.22.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 401minutos offline."
+    },
+    {
+        "data": "18/09/2026 23:00:40",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 401minutos offline."
+    },
+    {
+        "data": "19/09/2026 16:27:40",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 186minutos offline."
+    },
+    {
+        "data": "19/09/2026 16:27:48",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 187minutos offline."
+    },
+    {
+        "data": "20/09/2026 05:49:21",
+        "ip": "10.27.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 111minutos offline."
+    },
+    {
+        "data": "20/09/2026 05:49:21",
+        "ip": "10.27.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 111minutos offline."
+    },
+    {
+        "data": "20/09/2026 05:49:31",
+        "ip": "10.27.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 111minutos offline."
+    },
+    {
+        "data": "20/09/2026 05:49:40",
+        "ip": "10.27.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 111minutos offline."
+    },
+    {
+        "data": "20/09/2026 17:05:53",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 125minutos offline."
+    },
+    {
+        "data": "20/09/2026 17:06:22",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 125minutos offline."
+    },
+    {
+        "data": "21/09/2026 11:54:38",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 583minutos offline."
+    },
+    {
+        "data": "21/09/2026 12:11:43",
+        "ip": "10.37.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 600minutos offline."
+    },
+    {
+        "data": "21/09/2026 16:06:30",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 204minutos offline."
+    },
+    {
+        "data": "21/09/2026 16:20:54",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 218minutos offline."
+    },
+    {
+        "data": "21/09/2026 16:24:32",
+        "ip": "10.31.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 221minutos offline."
+    },
+    {
+        "data": "21/09/2026 16:24:37",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 222minutos offline."
+    },
+    {
+        "data": "22/09/2026 06:54:51",
+        "ip": "10.47.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 256minutos offline."
+    },
+    {
+        "data": "22/09/2026 06:55:17",
+        "ip": "10.47.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 257minutos offline."
+    },
+    {
+        "data": "22/09/2026 07:28:34",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 290minutos offline."
+    },
+    {
+        "data": "22/09/2026 07:43:40",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 305minutos offline."
+    },
+    {
+        "data": "22/09/2026 07:43:50",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 305minutos offline."
+    },
+    {
+        "data": "22/09/2026 07:43:52",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 305minutos offline."
+    },
+    {
+        "data": "22/09/2026 07:49:26",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 311minutos offline."
+    },
+    {
+        "data": "22/09/2026 07:54:00",
+        "ip": "10.0.0.12",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 316minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:01:21",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 323minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:02:29",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 324minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:06:02",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 328minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:06:13",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 328minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:08:19",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 330minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:11:30",
+        "ip": "10.41.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 333minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:14:10",
+        "ip": "10.39.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 336minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:16:17",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 338minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:16:21",
+        "ip": "10.52.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 338minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:17:07",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 339minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:21:17",
+        "ip": "10.29.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 343minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:22:08",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 344minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:28:32",
+        "ip": "10.50.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 350minutos offline."
+    },
+    {
+        "data": "22/09/2026 08:59:00",
+        "ip": "10.11.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 381minutos offline."
+    },
+    {
+        "data": "22/09/2026 09:09:38",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 391minutos offline."
+    },
+    {
+        "data": "22/09/2026 09:09:56",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 391minutos offline."
+    },
+    {
+        "data": "22/09/2026 09:47:54",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 429minutos offline."
+    },
+    {
+        "data": "22/09/2026 09:52:35",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 434minutos offline."
+    },
+    {
+        "data": "22/09/2026 10:00:25",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 442minutos offline."
+    },
+    {
+        "data": "22/09/2026 10:48:18",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 145minutos offline."
+    },
+    {
+        "data": "22/09/2026 10:48:30",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 490minutos offline."
+    },
+    {
+        "data": "22/09/2026 10:48:51",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 490minutos offline."
+    },
+    {
+        "data": "22/09/2026 12:26:23",
+        "ip": "10.39.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 157minutos offline."
+    },
+    {
+        "data": "23/09/2026 14:46:20",
+        "ip": "10.6.0.8",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2168minutos offline."
+    },
+    {
+        "data": "23/09/2026 14:46:20",
+        "ip": "10.17.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2168minutos offline."
+    },
+    {
+        "data": "23/09/2026 14:46:20",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1822minutos offline."
+    },
+    {
+        "data": "23/09/2026 14:46:21",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2168minutos offline."
+    },
+    {
+        "data": "23/09/2026 14:46:55",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2168minutos offline."
+    },
+    {
+        "data": "23/09/2026 14:46:57",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2168minutos offline."
+    },
+    {
+        "data": "23/09/2026 14:46:58",
+        "ip": "10.56.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2169minutos offline."
+    },
+    {
+        "data": "23/09/2026 14:47:03",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2168minutos offline."
+    },
+    {
+        "data": "23/09/2026 14:47:04",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2168minutos offline."
+    },
+    {
+        "data": "23/09/2026 14:47:05",
+        "ip": "10.56.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2169minutos offline."
+    },
+    {
+        "data": "23/09/2026 14:48:33",
+        "ip": "10.6.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1551minutos offline."
+    },
+    {
+        "data": "23/09/2026 18:50:21",
+        "ip": "10.54.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 117minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:05:22",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 852minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:07:18",
+        "ip": "10.47.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 850minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:20:21",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 877minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:25:28",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 867minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:31:14",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 886minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:38:40",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 897minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:42:14",
+        "ip": "10.48.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 877minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:48:15",
+        "ip": "10.50.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 870minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:50:02",
+        "ip": "10.41.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 855minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:54:06",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 902minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:57:14",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 924minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:57:19",
+        "ip": "10.62.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 895minutos offline."
+    },
+    {
+        "data": "24/09/2026 07:58:06",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 897minutos offline."
+    },
+    {
+        "data": "24/09/2026 08:06:07",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 904minutos offline."
+    },
+    {
+        "data": "24/09/2026 08:06:28",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 908minutos offline."
+    },
+    {
+        "data": "24/09/2026 08:08:25",
+        "ip": "10.29.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 913minutos offline."
+    },
+    {
+        "data": "24/09/2026 08:10:04",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1043minutos offline."
+    },
+    {
+        "data": "24/09/2026 08:14:18",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 952minutos offline."
+    },
+    {
+        "data": "24/09/2026 08:19:07",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 924minutos offline."
+    },
+    {
+        "data": "24/09/2026 08:20:06",
+        "ip": "10.17.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 887minutos offline."
+    },
+    {
+        "data": "24/09/2026 09:10:11",
+        "ip": "10.11.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 975minutos offline."
+    },
+    {
+        "data": "24/09/2026 10:22:01",
+        "ip": "10.59.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2976minutos offline."
+    },
+    {
+        "data": "24/09/2026 11:34:19",
+        "ip": "10.39.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1095minutos offline."
+    },
+    {
+        "data": "24/09/2026 12:51:30",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1224minutos offline."
+    },
+    {
+        "data": "24/09/2026 13:14:11",
+        "ip": "10.3.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1195minutos offline."
+    },
+    {
+        "data": "24/09/2026 13:14:22",
+        "ip": "10.3.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1195minutos offline."
+    },
+    {
+        "data": "24/09/2026 16:03:11",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1516minutos offline."
+    },
+    {
+        "data": "25/09/2026 07:20:43",
+        "ip": "10.41.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 70minutos offline."
+    },
+    {
+        "data": "25/09/2026 07:26:10",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 75minutos offline."
+    },
+    {
+        "data": "25/09/2026 07:27:54",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 77minutos offline."
+    },
+    {
+        "data": "25/09/2026 07:45:48",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 95minutos offline."
+    },
+    {
+        "data": "25/09/2026 07:50:02",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 99minutos offline."
+    },
+    {
+        "data": "25/09/2026 07:52:05",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 101minutos offline."
+    },
+    {
+        "data": "25/09/2026 07:54:44",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 104minutos offline."
+    },
+    {
+        "data": "25/09/2026 07:57:45",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 107minutos offline."
+    },
+    {
+        "data": "25/09/2026 08:05:46",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 115minutos offline."
+    },
+    {
+        "data": "25/09/2026 08:06:42",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 116minutos offline."
+    },
+    {
+        "data": "25/09/2026 08:06:52",
+        "ip": "10.50.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 116minutos offline."
+    },
+    {
+        "data": "25/09/2026 08:16:47",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 126minutos offline."
+    },
+    {
+        "data": "25/09/2026 08:19:32",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 129minutos offline."
+    },
+    {
+        "data": "25/09/2026 09:03:25",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 173minutos offline."
+    },
+    {
+        "data": "25/09/2026 09:18:22",
+        "ip": "10.6.0.8",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 188minutos offline."
+    },
+    {
+        "data": "25/09/2026 09:55:29",
+        "ip": "10.0.0.21",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 225minutos offline."
+    },
+    {
+        "data": "25/09/2026 10:13:23",
+        "ip": "10.22.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 243minutos offline."
+    },
+    {
+        "data": "25/09/2026 10:13:27",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 243minutos offline."
+    },
+    {
+        "data": "25/09/2026 10:13:29",
+        "ip": "10.38.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 243minutos offline."
+    },
+    {
+        "data": "25/09/2026 10:13:37",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 243minutos offline."
+    },
+    {
+        "data": "25/09/2026 10:13:40",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 243minutos offline."
+    },
+    {
+        "data": "25/09/2026 10:14:42",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 244minutos offline."
+    },
+    {
+        "data": "25/09/2026 10:15:20",
+        "ip": "10.22.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 245minutos offline."
+    },
+    {
+        "data": "25/09/2026 10:15:20",
+        "ip": "10.22.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 245minutos offline."
+    },
+    {
+        "data": "25/09/2026 10:15:22",
+        "ip": "10.37.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 245minutos offline."
+    },
+    {
+        "data": "25/09/2026 10:18:47",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 248minutos offline."
+    },
+    {
+        "data": "25/09/2026 11:06:44",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 296minutos offline."
+    },
+    {
+        "data": "25/09/2026 12:59:44",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 409minutos offline."
+    },
+    {
+        "data": "25/09/2026 14:18:29",
+        "ip": "10.11.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 488minutos offline."
+    },
+    {
+        "data": "25/09/2026 14:31:46",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 100minutos offline."
+    },
+    {
+        "data": "26/09/2026 08:19:08",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 912minutos offline."
+    },
+    {
+        "data": "26/09/2026 09:58:16",
+        "ip": "10.47.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1011minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:09",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1630minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:11",
+        "ip": "10.50.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1630minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:11",
+        "ip": "10.5.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:12",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1630minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:18",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:18",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1630minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:20",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1630minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:21",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1630minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:28",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:29",
+        "ip": "10.50.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:29",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:31",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1630minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:35",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:35",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:36",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:37",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:37",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:45",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:46",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:48",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:04:56",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:05:11",
+        "ip": "10.39.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1631minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:06:38",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1633minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:06:55",
+        "ip": "10.19.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1633minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:18:03",
+        "ip": "10.62.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1644minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:18:53",
+        "ip": "10.11.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1645minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:20:17",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1646minutos offline."
+    },
+    {
+        "data": "28/09/2026 08:21:08",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1647minutos offline."
+    },
+    {
+        "data": "28/09/2026 09:52:34",
+        "ip": "10.41.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1739minutos offline."
+    },
+    {
+        "data": "28/09/2026 10:13:37",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1760minutos offline."
+    },
+    {
+        "data": "28/09/2026 13:53:03",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1979minutos offline."
+    },
+    {
+        "data": "28/09/2026 17:04:59",
+        "ip": "10.29.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 540minutos offline."
+    },
+    {
+        "data": "28/09/2026 17:05:07",
+        "ip": "10.29.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2171minutos offline."
+    },
+    {
+        "data": "28/09/2026 17:05:16",
+        "ip": "10.29.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 540minutos offline."
+    },
+    {
+        "data": "28/09/2026 17:05:37",
+        "ip": "10.29.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 541minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:03:50",
+        "ip": "10.47.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 219minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:19:56",
+        "ip": "10.39.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 235minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:20:24",
+        "ip": "10.41.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 236minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:21:42",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 237minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:40:27",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 255minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:40:28",
+        "ip": "10.50.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 255minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:40:33",
+        "ip": "10.13.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 255minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:41:40",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 256minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:45:43",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 261minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:52:34",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 267minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:52:43",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 267minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:53:17",
+        "ip": "10.17.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 268minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:54:21",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 269minutos offline."
+    },
+    {
+        "data": "29/09/2026 07:54:28",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 269minutos offline."
+    },
+    {
+        "data": "29/09/2026 08:01:03",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 276minutos offline."
+    },
+    {
+        "data": "29/09/2026 08:05:38",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 281minutos offline."
+    },
+    {
+        "data": "29/09/2026 08:05:58",
+        "ip": "10.31.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 281minutos offline."
+    },
+    {
+        "data": "29/09/2026 08:11:43",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 286minutos offline."
+    },
+    {
+        "data": "29/09/2026 08:12:26",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 288minutos offline."
+    },
+    {
+        "data": "29/09/2026 08:17:43",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 292minutos offline."
+    },
+    {
+        "data": "29/09/2026 08:19:29",
+        "ip": "10.54.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 294minutos offline."
+    },
+    {
+        "data": "29/09/2026 08:47:21",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 322minutos offline."
+    },
+    {
+        "data": "29/09/2026 08:49:34",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 324minutos offline."
+    },
+    {
+        "data": "29/09/2026 09:29:23",
+        "ip": "10.11.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 364minutos offline."
+    },
+    {
+        "data": "29/09/2026 10:06:22",
+        "ip": "10.0.0.21",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 120minutos offline."
+    },
+    {
+        "data": "29/09/2026 10:46:41",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 441minutos offline."
+    },
+    {
+        "data": "29/09/2026 11:44:15",
+        "ip": "10.0.0.15",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 132minutos offline."
+    },
+    {
+        "data": "29/09/2026 13:25:40",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 600minutos offline."
+    },
+    {
+        "data": "29/09/2026 13:58:12",
+        "ip": "10.59.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 633minutos offline."
+    },
+    {
+        "data": "19/10/2026 10:20:53",
+        "ip": "10.26.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 29215minutos offline."
+    },
+    {
+        "data": "19/10/2026 10:20:55",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 28609minutos offline."
+    },
+    {
+        "data": "19/10/2026 10:21:04",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 28796minutos offline."
+    },
+    {
+        "data": "19/10/2026 10:21:07",
+        "ip": "10.100.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 29216minutos offline."
+    },
+    {
+        "data": "19/10/2026 10:21:24",
+        "ip": "10.54.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 28606minutos offline."
+    },
+    {
+        "data": "19/10/2026 10:21:25",
+        "ip": "10.54.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 28605minutos offline."
+    },
+    {
+        "data": "19/10/2026 10:21:32",
+        "ip": "10.55.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 28605minutos offline."
+    },
+    {
+        "data": "19/10/2026 10:21:33",
+        "ip": "10.10.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 28852minutos offline."
+    },
+    {
+        "data": "19/10/2026 10:21:41",
+        "ip": "10.54.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 28605minutos offline."
+    },
+    {
+        "data": "19/10/2026 10:37:20",
+        "ip": "10.40.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 29232minutos offline."
+    },
+    {
+        "data": "19/10/2026 10:39:30",
+        "ip": "10.52.0.7",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 29234minutos offline."
+    },
+    {
+        "data": "19/10/2026 11:48:09",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 29303minutos offline."
+    },
+    {
+        "data": "19/10/2026 12:53:21",
+        "ip": "10.21.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 81minutos offline."
+    },
+    {
+        "data": "19/10/2026 13:13:36",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 71minutos offline."
+    },
+    {
+        "data": "19/10/2026 13:36:33",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 194minutos offline."
+    },
+    {
+        "data": "19/10/2026 15:36:05",
+        "ip": "10.0.0.21",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 301minutos offline."
+    },
+    {
+        "data": "19/10/2026 16:53:11",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 101minutos offline."
+    },
+    {
+        "data": "19/10/2026 18:15:13",
+        "ip": "10.40.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 121minutos offline."
+    },
+    {
+        "data": "20/10/2026 06:54:46",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 550minutos offline."
+    },
+    {
+        "data": "20/10/2026 07:43:47",
+        "ip": "10.50.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 599minutos offline."
+    },
+    {
+        "data": "20/10/2026 07:43:58",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 599minutos offline."
+    },
+    {
+        "data": "20/10/2026 07:50:00",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 605minutos offline."
+    },
+    {
+        "data": "20/10/2026 07:50:13",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 605minutos offline."
+    },
+    {
+        "data": "20/10/2026 07:52:03",
+        "ip": "10.5.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 607minutos offline."
+    },
+    {
+        "data": "20/10/2026 07:53:47",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 609minutos offline."
+    },
+    {
+        "data": "20/10/2026 07:55:05",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 610minutos offline."
+    },
+    {
+        "data": "20/10/2026 08:00:02",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 615minutos offline."
+    },
+    {
+        "data": "20/10/2026 08:00:08",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 615minutos offline."
+    },
+    {
+        "data": "20/10/2026 08:00:57",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 616minutos offline."
+    },
+    {
+        "data": "20/10/2026 08:01:51",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 617minutos offline."
+    },
+    {
+        "data": "20/10/2026 08:30:19",
+        "ip": "10.17.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 645minutos offline."
+    },
+    {
+        "data": "20/10/2026 08:40:25",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 655minutos offline."
+    },
+    {
+        "data": "20/10/2026 10:29:23",
+        "ip": "10.0.0.21",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 764minutos offline."
+    },
+    {
+        "data": "20/10/2026 11:05:23",
+        "ip": "10.10.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 800minutos offline."
+    },
+    {
+        "data": "20/10/2026 13:25:51",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 940minutos offline."
+    },
+    {
+        "data": "20/10/2026 13:34:35",
+        "ip": "10.40.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 250minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:07",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3619minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:09",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3188minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:10",
+        "ip": "10.38.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3188minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:13",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3188minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:20",
+        "ip": "10.22.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3188minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:21",
+        "ip": "10.22.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3188minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:22",
+        "ip": "10.22.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3188minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:23",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3620minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:23",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3188minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:34",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3620minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:40",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3620minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:42",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2720minutos offline."
+    },
+    {
+        "data": "22/10/2026 10:05:46",
+        "ip": "10.37.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3188minutos offline."
+    },
+    {
+        "data": "22/10/2026 15:25:01",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 117minutos offline."
+    },
+    {
+        "data": "22/10/2026 15:26:11",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 118minutos offline."
+    },
+    {
+        "data": "22/10/2026 15:26:25",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 118minutos offline."
+    },
+    {
+        "data": "23/10/2026 08:42:59",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 66minutos offline."
+    },
+    {
+        "data": "23/10/2026 08:43:23",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 66minutos offline."
+    },
+    {
+        "data": "23/10/2026 08:53:56",
+        "ip": "10.17.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 77minutos offline."
+    },
+    {
+        "data": "23/10/2026 08:54:01",
+        "ip": "10.17.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 77minutos offline."
+    },
+    {
+        "data": "23/10/2026 09:02:09",
+        "ip": "10.11.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 85minutos offline."
+    },
+    {
+        "data": "23/10/2026 09:02:16",
+        "ip": "10.11.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 85minutos offline."
+    },
+    {
+        "data": "23/10/2026 09:05:39",
+        "ip": "10.27.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 89minutos offline."
+    },
+    {
+        "data": "23/10/2026 09:05:44",
+        "ip": "10.27.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 89minutos offline."
+    },
+    {
+        "data": "23/10/2026 09:06:20",
+        "ip": "10.62.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 88minutos offline."
+    },
+    {
+        "data": "23/10/2026 09:13:36",
+        "ip": "10.59.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 97minutos offline."
+    },
+    {
+        "data": "23/10/2026 09:13:41",
+        "ip": "10.59.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 97minutos offline."
+    },
+    {
+        "data": "23/10/2026 09:19:28",
+        "ip": "10.0.0.21",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 103minutos offline."
+    },
+    {
+        "data": "23/10/2026 10:00:14",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 143minutos offline."
+    },
+    {
+        "data": "23/10/2026 10:23:10",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 166minutos offline."
+    },
+    {
+        "data": "23/10/2026 10:23:13",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 166minutos offline."
+    },
+    {
+        "data": "23/10/2026 11:10:31",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 204minutos offline."
+    },
+    {
+        "data": "23/10/2026 11:10:35",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 204minutos offline."
+    },
+    {
+        "data": "23/10/2026 11:27:44",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 231minutos offline."
+    },
+    {
+        "data": "23/10/2026 11:27:51",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 231minutos offline."
+    },
+    {
+        "data": "23/10/2026 13:35:05",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 175minutos offline."
+    },
+    {
+        "data": "23/10/2026 13:35:11",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 175minutos offline."
+    },
+    {
+        "data": "23/10/2026 13:53:05",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 376minutos offline."
+    },
+    {
+        "data": "23/10/2026 13:53:05",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 376minutos offline."
+    },
+    {
+        "data": "23/10/2026 14:17:03",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 119minutos offline."
+    },
+    {
+        "data": "23/10/2026 14:17:04",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 119minutos offline."
+    },
+    {
+        "data": "23/10/2026 14:17:07",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 119minutos offline."
+    },
+    {
+        "data": "23/10/2026 14:17:25",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 119minutos offline."
+    },
+    {
+        "data": "23/10/2026 14:17:46",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 120minutos offline."
+    },
+    {
+        "data": "23/10/2026 14:18:05",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 120minutos offline."
+    },
+    {
+        "data": "23/10/2026 14:18:19",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 120minutos offline."
+    },
+    {
+        "data": "23/10/2026 14:18:47",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 121minutos offline."
+    },
+    {
+        "data": "23/10/2026 14:21:27",
+        "ip": "10.4.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 123minutos offline."
+    },
+    {
+        "data": "23/10/2026 16:25:42",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 529minutos offline."
+    },
+    {
+        "data": "23/10/2026 16:25:51",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 529minutos offline."
+    },
+    {
+        "data": "24/10/2026 17:05:33",
+        "ip": "10.62.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 105minutos offline."
+    },
+    {
+        "data": "24/10/2026 17:06:00",
+        "ip": "10.23.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 106minutos offline."
+    },
+    {
+        "data": "24/10/2026 17:06:00",
+        "ip": "10.23.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 106minutos offline."
+    },
+    {
+        "data": "24/10/2026 17:06:15",
+        "ip": "10.40.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 107minutos offline."
+    },
+    {
+        "data": "24/10/2026 17:06:19",
+        "ip": "10.23.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 106minutos offline."
+    },
+    {
+        "data": "24/10/2026 17:07:10",
+        "ip": "10.66.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 108minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:33",
+        "ip": "10.5.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3939minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:34",
+        "ip": "10.47.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3939minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:35",
+        "ip": "10.54.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3740minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:36",
+        "ip": "10.0.0.10",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3853minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:37",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3875minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:38",
+        "ip": "10.29.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3860minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:43",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3751minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:43",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3859minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:47",
+        "ip": "10.54.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3864minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:47",
+        "ip": "10.0.0.21",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 4190minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:48",
+        "ip": "10.52.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3855minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:49",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3981minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:51",
+        "ip": "10.17.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3874minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:52",
+        "ip": "10.50.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3858minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:53",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3881minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:53",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3861minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:57",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3946minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:18:58",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3892minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:19:00",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3854minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:19:02",
+        "ip": "10.28.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2357minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:19:04",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3875minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:19:06",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3940minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:19:08",
+        "ip": "10.59.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3940minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:19:09",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3940minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:19:11",
+        "ip": "10.41.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3812minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:45:09",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3881minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:46:08",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3882minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:46:35",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3882minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:46:48",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3882minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:46:48",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3882minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:47:49",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3883minutos offline."
+    },
+    {
+        "data": "26/10/2026 09:48:10",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3884minutos offline."
+    },
+    {
+        "data": "26/10/2026 12:01:38",
+        "ip": "10.11.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 66minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:24",
+        "ip": "10.37.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 131minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:27",
+        "ip": "10.22.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 130minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:28",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 130minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:31",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 130minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:32",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 130minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:35",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 130minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:37",
+        "ip": "10.22.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 128minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:40",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 128minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:42",
+        "ip": "10.22.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 130minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:43",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 130minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:45",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 130minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:46",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 130minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:49",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 130minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:51",
+        "ip": "10.22.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 129minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:05:53",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 129minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:07:03",
+        "ip": "10.22.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 133minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:13:21",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 139minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:14:27",
+        "ip": "10.38.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 140minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:43:41",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 166minutos offline."
+    },
+    {
+        "data": "26/10/2026 13:58:25",
+        "ip": "10.14.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 184minutos offline."
+    },
+    {
+        "data": "27/10/2026 06:40:25",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 831minutos offline."
+    },
+    {
+        "data": "27/10/2026 06:55:22",
+        "ip": "10.47.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 842minutos offline."
+    },
+    {
+        "data": "27/10/2026 07:28:18",
+        "ip": "10.43.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 876minutos offline."
+    },
+    {
+        "data": "27/10/2026 07:28:27",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 866minutos offline."
+    },
+    {
+        "data": "27/10/2026 07:32:15",
+        "ip": "10.54.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 883minutos offline."
+    },
+    {
+        "data": "27/10/2026 07:38:27",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 892minutos offline."
+    },
+    {
+        "data": "27/10/2026 07:51:14",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 910minutos offline."
+    },
+    {
+        "data": "27/10/2026 07:54:17",
+        "ip": "10.50.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 874minutos offline."
+    },
+    {
+        "data": "27/10/2026 08:02:23",
+        "ip": "10.0.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 841minutos offline."
+    },
+    {
+        "data": "27/10/2026 08:04:06",
+        "ip": "10.0.0.10",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 843minutos offline."
+    },
+    {
+        "data": "27/10/2026 08:04:31",
+        "ip": "10.52.0.5",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 910minutos offline."
+    },
+    {
+        "data": "27/10/2026 08:07:55",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 922minutos offline."
+    },
+    {
+        "data": "27/10/2026 08:09:50",
+        "ip": "10.0.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 903minutos offline."
+    },
+    {
+        "data": "27/10/2026 08:18:30",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 941minutos offline."
+    },
+    {
+        "data": "27/10/2026 08:20:14",
+        "ip": "10.29.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 924minutos offline."
+    },
+    {
+        "data": "27/10/2026 08:35:22",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 941minutos offline."
+    },
+    {
+        "data": "27/10/2026 08:38:11",
+        "ip": "10.17.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 950minutos offline."
+    },
+    {
+        "data": "27/10/2026 08:48:07",
+        "ip": "10.30.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1064minutos offline."
+    },
+    {
+        "data": "28/10/2026 08:39:03",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2387 minutos offline."
+    },
+    {
+        "data": "28/10/2026 08:39:09",
+        "ip": "10.9.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1427 minutos offline."
+    },
+    {
+        "data": "28/10/2026 08:39:37",
+        "ip": "10.26.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1431 minutos offline."
+    },
+    {
+        "data": "28/10/2026 09:24:30",
+        "ip": "10.11.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2405 minutos offline."
+    },
+    {
+        "data": "28/10/2026 09:49:13",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 69 minutos offline."
+    },
+    {
+        "data": "28/10/2026 09:49:14",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 69 minutos offline."
+    },
+    {
+        "data": "28/10/2026 09:50:13",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 70 minutos offline."
+    },
+    {
+        "data": "28/10/2026 09:50:46",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 71 minutos offline."
+    },
+    {
+        "data": "28/10/2026 09:51:28",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 71 minutos offline."
+    },
+    {
+        "data": "28/10/2026 09:52:01",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 72 minutos offline."
+    },
+    {
+        "data": "28/10/2026 09:52:38",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 72 minutos offline."
+    },
+    {
+        "data": "28/10/2026 09:53:10",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 73 minutos offline."
+    },
+    {
+        "data": "28/10/2026 14:39:30",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2719 minutos offline."
+    },
+    {
+        "data": "28/10/2026 14:39:32",
+        "ip": "10.62.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 2741 minutos offline."
+    },
+    {
+        "data": "28/10/2026 14:58:31",
+        "ip": "10.39.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 3120 minutos offline."
+    },
+    {
+        "data": "29/10/2026 08:33:54",
+        "ip": "10.22.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1325 minutos offline."
+    },
+    {
+        "data": "29/10/2026 08:34:05",
+        "ip": "10.37.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1322 minutos offline."
+    },
+    {
+        "data": "29/10/2026 08:34:06",
+        "ip": "10.33.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1326 minutos offline."
+    },
+    {
+        "data": "29/10/2026 08:34:19",
+        "ip": "10.22.0.4",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1315 minutos offline."
+    },
+    {
+        "data": "29/10/2026 08:34:20",
+        "ip": "10.22.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1327 minutos offline."
+    },
+    {
+        "data": "29/10/2026 08:34:21",
+        "ip": "10.38.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1326 minutos offline."
+    },
+    {
+        "data": "29/10/2026 08:34:24",
+        "ip": "10.64.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 1329 minutos offline."
+    },
+    {
+        "data": "29/10/2026 11:27:03",
+        "ip": "10.3.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 172 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:19:19",
+        "ip": "10.60.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 8513 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:19:28",
+        "ip": "10.61.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7185 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:19:29",
+        "ip": "10.41.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7185 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:19:30",
+        "ip": "10.32.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7185 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:19:36",
+        "ip": "10.48.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7185 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:19:38",
+        "ip": "10.50.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7185 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:19:39",
+        "ip": "10.34.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 8513 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:19:40",
+        "ip": "10.39.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7185 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:19:43",
+        "ip": "10.63.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7185 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:19:46",
+        "ip": "10.31.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7185 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:19:57",
+        "ip": "10.60.0.2",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 8514 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:20:12",
+        "ip": "10.62.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7186 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:20:14",
+        "ip": "10.46.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7186 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:20:14",
+        "ip": "10.47.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7186 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:20:19",
+        "ip": "10.52.0.3",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7013 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:21:31",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7187 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:21:45",
+        "ip": "10.67.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7187 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:22:50",
+        "ip": "10.52.0.6",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7015 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:23:06",
+        "ip": "10.52.0.6",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7015 minutos offline."
+    },
+    {
+        "data": "03/11/2026 08:27:28",
+        "ip": "10.21.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7005 minutos offline."
+    },
+    {
+        "data": "03/11/2026 10:23:39",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 8632 minutos offline."
+    },
+    {
+        "data": "03/11/2026 10:24:08",
+        "ip": "10.42.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 8632 minutos offline."
+    },
+    {
+        "data": "03/11/2026 11:39:30",
+        "ip": "10.51.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 7385 minutos offline."
+    },
+    {
+        "data": "04/11/2026 09:48:55",
+        "ip": "10.12.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 8621 minutos offline."
+    },
+    {
+        "data": "04/11/2026 12:52:12",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 8898 minutos offline."
+    },
+    {
+        "data": "04/11/2026 12:52:21",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 8898 minutos offline."
+    },
+    {
+        "data": "04/11/2026 12:53:09",
+        "ip": "10.36.0.1",
+        "tipo": "ONLINE",
+        "mensagem": "Impressora voltou a responder ao SNMP após 8899 minutos offline."
+    }
+]

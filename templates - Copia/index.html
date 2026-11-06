@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+
+            <meta charset="UTF-8">
+
+            <meta name="viewport"
+                content="width=device-width, initial-scale=1.0">
+
+            <title>Monitor de Impressoras</title>
+
+          
+            <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=3.7">
+        <!--=========================================================
+        CONFIGURAÇÃO GERAL
+        ========================================================= -->
+   
+    </head>
+          
+            <body>
+        <script src="{{ url_for('static', filename='js/menu-state.js') }}?v=1"></script>
+
+
+        <!-- ======================================================
+            MENU PRINCIPAL RECOLHÍVEL
+            ====================================================== -->
+
+            <div class="menu" id="menu-lateral">
+
+                <!-- BOTÃO RECOLHER / EXPANDIR COM SETA SVG -->
+                <button class="btn-toggle-menu" id="btn-toggle-menu" onclick="alternarMenu()" type="button" title="Recolher menu lateral" aria-label="Recolher menu lateral" aria-expanded="true">
+                    <span class="icone-seta">
+                        <svg viewBox="0 0 24 24">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </span>
+                    <span class="texto-toggle">Recolher Menu</span>
+                </button>
+
+                <!-- LOGO E BRASÃO -->
+                <div class="menu-logo">
+                    <div class="brasao">
+                        <img src="{{ url_for('static', filename='BRASAO_CURVAS-01.png') }}" alt="Brasão Prefeitura">
+                    </div>
+
+                    <div class="logo-prefeitura">
+                        PREFEITURA<br>
+                        <span>MUNICIPAL DE RIO BRANCO DO SUL</span>
+                    </div>
+                </div>
+
+                <!-- BARRA DE PESQUISA -->
+                <div class="barra-pesquisa" onclick="focarPesquisa()" title="Pesquisar impressora">
+                    <img src="https://img.icons8.com/ios-glyphs/30/search-more.png" alt="search">
+                    <input
+                        type="text"
+                        id="pesquisa"
+                        placeholder="Pesquisar impressora"
+                        onkeyup="pesquisarImpressoras()">
+                </div>
+
+                <!-- LISTA DE BOTÕES -->
+                <div class="menu-botoes">
+                    <button class="item-menu" onclick="alternarSecaoMenu('impressoras', abrirImpressoras)" type="button" title="Impressoras">
+                        <img src="https://img.icons8.com/fluency-systems-regular/48/print.png" alt="print">
+                        <span class="item-menu-texto">Impressoras</span>
+                    </button>
+
+                    <button class="item-menu" onclick="alternarSecaoMenu('offline', carregar_offline)" type="button" title="Offline">
+                        <img src="https://img.icons8.com/ios/50/no-internet.png" alt="offline">
+                        <span class="item-menu-texto">Offline</span>
+                    </button>
+
+                    <button class="item-menu" onclick="alternarSecaoMenu('toners-baixos', mostrarTonerBaixo)" type="button" title="Toners baixos">
+                        <img src="https://img.icons8.com/fluency-systems-filled/48/fill-color.png" alt="toner">
+                        <span class="item-menu-texto">Toners baixos</span>
+                    </button>
+
+                    <button class="item-menu" onclick="alternarSecaoMenu('toners-nao-confiaveis', mostrarTonersNaoConfiaveis)" type="button" title="Toners não confiáveis">
+                        <img src="https://img.icons8.com/metro/26/do-not-insert.png" alt="alerta">
+                        <span class="item-menu-texto">Toners não confiáveis</span>
+                    </button>
+
+                    <button class="item-menu" onclick="alternarSecaoMenu('historico', mostrarhistorico)" type="button" title="Histórico">
+                        <img src="https://img.icons8.com/windows/32/activity-history.png" alt="historico">
+                        <span class="item-menu-texto">Histórico</span>
+                    </button>
+
+                    <button class="item-menu" onclick="alternarSecaoMenu('estoque', mostrarEstoque)" type="button" title="Estoque">
+                        <img src="https://img.icons8.com/dotty/80/warehouse--v2.png" alt="estoque">
+                        <span class="item-menu-texto">Estoque</span>
+                    </button>
+                </div>
+
+            </div>
+
+        <!-- CONTEÚDO PRINCIPAL (EXPANDE E PREENCHE 100% DA LARGURA DISPONÍVEL) -->
+        <div class="conteudo-principal" id="conteudo-principal">
+
+
+            <!-- ======================================================
+                CABEÇALHO
+            ====================================================== -->
+
+            <div class="cabecalho">
+
+                <h1>
+                    <img width="40" height="40" src="https://img.icons8.com/fluency-systems-regular/48/print.png" alt="print"/>
+                     Monitor de Impressoras
+                </h1>
+
+
+                <p>
+                    Central de monitoramento de equipamentos
+                </p>
+
+
+                <p class="mt-2">
+
+                    Última atualização:
+
+                    <span id="horario">
+                        {{ horario }}
+                    </span>
+
+                </p>
+
+            </div>
+
+
+
+            <div class="container-fluid px-4">
+
+            <!-- ======================================================
+            CARTÕES DE INDICADORES
+            ====================================================== -->
+
+            <div class="cartoes">
+
+            <!-- TOTAL DE IMPRESSORAS -->
+                <div class="cartao-total">
+
+                    <img width="40" height="40" src="https://img.icons8.com/fluency-systems-regular/48/print.png" alt="print"/>
+                    
+                    <div class="cartao-conteudo">
+
+                        <div class="cartao-titulo">
+                            TOTAL DE IMPRESSORAS
+                        </div>
+
+                        <div
+                            class="numero"
+                            id="total-impressoras">
+                            0
+                        </div>
+
+                        <div class="cartao-subtitulo">
+                            Equipamentos cadastrados
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ONLINE -->
+                <div class="cartao-online">
+
+                   <img width="40" height="40" src="https://img.icons8.com/parakeet-line/48/online.png" alt="online"/>
+
+                    <div class="cartao-conteudo">
+
+                        <div class="cartao-titulo">
+                            ONLINE
+                        </div>
+
+                        <div
+                            class="numero"
+                            id="online-impressoras">
+                            0
+                        </div>
+
+                        <div class="cartao-subtitulo">
+                            Equipamentos funcionando
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- OFFLINE -->
+                <div class="cartao-offline">
+
+                    <img width="40" height="40" src="https://img.icons8.com/ios/50/offline.png" alt="offline"/>
+
+                    <div class="cartao-conteudo">
+
+                        <div class="cartao-titulo">
+                            OFFLINE
+                        </div>
+
+                        <div
+                            class="numero"
+                            id="offline-impressoras">
+                            0
+                        </div>
+
+                        <div class="cartao-subtitulo">
+                            Equipamentos sem resposta
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TONER BAIXO -->
+                <div class="cartao-toner">
+
+                    <img width="40" height="40" src="https://img.icons8.com/fluency-systems-filled/48/fill-color.png" alt="fill-color"/>
+
+                    <div class="cartao-conteudo">
+
+                        <div class="cartao-titulo">
+                            TONER BAIXO
+                        </div>
+
+                        <div
+                            class="numero"
+                            id="toner-baixo">
+                            0
+                        </div>
+
+                        <div class="cartao-subtitulo">
+                            Atenção necessária
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ======================================================
+                ÁREA DO ESTOQUE
+            ====================================================== -->
+
+            <div id="area-estoque">
+
+
+                <div class="area-conteudo-estoque">
+                    <!-- Título do estoque -->
+                    <div class="cabecalho-lista">
+                        <h3 class="titulo-pastas">
+                            <img
+                                width="28"
+                                height="28"
+                                src="https://img.icons8.com/dotty/80/warehouse--v2.png"
+                                alt="estoque">
+                            Estoque de Toners
+                        </h3>
+
+                    </div>
+
+                    <!-- ABAS DO ESTOQUE -->
+                    <div class="abas-estoque mb-4" role="tablist" aria-label="Seções do estoque">
+
+                        <button
+                            class="aba-estoque"
+                            data-aba="estoque"
+                            role="tab"
+                            aria-selected="false"
+                            type="button"
+                            onclick="abrirAbaEstoque('estoque')">
+                            Estoque
+                        </button>
+
+                        <button
+                            class="aba-estoque"
+                            data-aba="cadastro"
+                            role="tab"
+                            aria-selected="false"
+                            type="button"
+                            onclick="abrirAbaEstoque('cadastro')">
+                            Cadastro de toner
+                        </button>
+
+                        <button
+                            class="aba-estoque"
+                            data-aba="saidas"
+                            role="tab"
+                            aria-selected="false"
+                            type="button"
+                            onclick="abrirAbaEstoque('saidas')">
+                            Saídas
+                        </button>
+
+                    </div>
+
+
+
+            
+
+                </div>
+
+            </div>
+
+            <!-- ==================================================
+                TABELA DO ESTOQUE
+            ================================================== -->
+
+            <div
+            id="area-tabela-estoque"
+            class="table-responsive mt-4"
+            style="display: none;"> 
+
+                <div class="form-check mb-3">
+                    <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="mostrar-toners-inativos"
+                        onchange="definirTonersInativos(this.checked)">
+                    <label
+                        class="form-check-label"
+                        for="mostrar-toners-inativos">
+                        Manter registros inativos visíveis
+                    </label>
+                </div>
+
+                <table
+                class="table table-striped table-hover align-middle">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>
+                                Marca
+                            </th>
+
+                            <th>
+                                Código
+                            </th>
+
+                            <th>
+                                Modelos compatíveis
+                            </th>
+
+                            <th>
+                                Cor
+                            </th>
+
+                            <th>
+                                Estoque
+                            </th>
+
+                            <th>
+                                Estoque mínimo
+                            </th>
+
+                            <th>
+                                Situação
+                            </th>
+
+                            <th>
+                                Ação
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="corpo-tabela-estoque">
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+            <!-- ==================================================
+                FORMULÁRIO DE CADASTRO
+            ================================================== -->
+
+            <div
+                id="formulario-toner"
+                class="card">
+
+
+                <div class="card-body">
+
+
+                    <h5 class="card-title mb-3">
+
+                        Cadastrar toner
+
+                    </h5>
+
+
+                    <div class="row g-3">
+
+
+                        <!-- MARCA -->
+
+                        <div class="col-md-3">
+
+                            <label class="form-label">
+
+                                Marca
+
+                            </label>
+
+
+                            <input
+                                type="text"
+                                id="toner-marca"
+                                class="form-control"
+                                placeholder="Ex.: Intercopy">
+
+                        </div>
+
+
+                            <!-- CÓDIGO -->
+
+                            <div class="col-md-3">
+
+                                <label class="form-label">
+
+                                    Código / Modelo
+
+                                </label>
+
+
+                                <input
+                                    type="text"
+                                    id="toner-codigo"
+                                    class="form-control"
+                                    placeholder="Ex.: TK-3162">
+
+                            </div>
+
+
+                            <!-- COR -->
+
+                            <div class="col-md-2">
+
+                                <label class="form-label">
+
+                                    Cor
+
+                                </label>
+
+
+                                <select
+                                    id="toner-cor"
+                                    class="form-select">
+
+
+                                    <option value="">
+
+                                        Selecione
+
+                                    </option>
+
+
+                                    <option value="Preto">
+
+                                        Preto
+
+                                    </option>
+
+
+                                    <option value="Ciano">
+
+                                        Ciano
+
+                                    </option>
+
+
+                                    <option value="Magenta">
+
+                                        Magenta
+
+                                    </option>
+
+
+                                    <option value="Amarelo">
+
+                                        Amarelo
+
+                                    </option>
+
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- QUANTIDADE -->
+
+                            <div class="col-md-2">
+
+                                <label class="form-label">
+
+                                    Quantidade
+
+                                </label>
+
+
+                                <input
+                                    type="number"
+                                    id="toner-estoque"
+                                    class="form-control"
+                                    min="0"
+                                    value="0">
+
+                            </div>
+
+
+                            <!-- ESTOQUE MÍNIMO -->
+
+                            <div class="col-md-2">
+
+                                <label class="form-label">
+
+                                    Estoque mínimo
+
+                                </label>
+
+
+                                <input
+                                    type="number"
+                                    id="toner-minimo"
+                                    class="form-control"
+                                    min="0"
+                                    value="1">
+
+                            </div>
+
+
+                    </div>   
+
+                    <div class="row mt-3">
+                        <div class="col-md-8">
+                            <label class="form-label" for="toner-modelos">
+                                Modelos compatíveis
+                            </label>
+                            <input
+                                type="text"
+                                id="toner-modelos"
+                                class="form-control"
+                                placeholder="Ex.: M3655, M3860">
+                            <small class="form-text text-muted">
+                                Informe todos os modelos atendidos por este código de toner,
+                                separados por vírgula. Ex.: TK-**** para M3655 e outros M****.
+                                A baixa automática ocorre ao subir de até 10% para pelo menos 90%.
+                            </small>
+                        </div>
+                    </div>
+
+
+                        <div class="mt-4">
+
+
+                            <button
+                                class="btn btn-success"
+                                onclick="cadastrarToner()">
+
+                                Salvar toner
+
+                            </button>
+
+
+                            <button
+                                class="btn btn-secondary"
+                                onclick="fecharCadastroToner()">
+
+                                Cancelar
+
+                            </button>
+
+
+                        </div>
+                </div>
+
+            </div>
+            <!--==================================
+                SAÍDA DE TONER
+            ================================================== -->
+
+            <div
+                id="formulario-saida-toner"
+                class="card mb-4"
+                style="display: none;">
+
+                <div class="card-body">
+
+                    <h5 class="card-title mb-3">
+
+                         Saída de toner
+
+                    </h5>
+
+
+                    <div class="row g-3">
+
+                        <!-- BUSCAR IMPRESSORA PELO IP -->
+
+                        <div class="col-md-4">
+
+                            <label class="form-label">
+
+                                IP da impressora
+
+                            </label>
+
+                            <div class="input-group">
+
+                                <input
+                                    type="text"
+                                    id="saida-busca-ip"
+                                    class="form-control"
+                                    placeholder="Ex.: 192.168.1.50">
+
+                                <button
+                                    type="button"
+                                    class="btn btn-primary"
+                                    onclick="buscarImpressoraSaida()">
+
+                                    Buscar
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- RESULTADO DA BUSCA -->
+
+                        <div
+                            id="resultado-impressora-saida"
+                            class="col-md-8"
+                            style="display: none;">
+
+                            <label class="form-label">
+
+                                Impressora encontrada
+
+                            </label>
+
+                            <div
+                                id="dados-impressora-saida"
+                                class="alert alert-success mb-0">
+
+                            </div>
+
+                        </div>
+
+                        <!-- TONER -->
+
+                        <div class="col-md-4">
+
+                            <label class="form-label">
+
+                                Toner
+
+                            </label>
+
+                            <select
+                                id="saida-toner"
+                                class="form-select"
+                                onchange="atualizarEstoqueSaida()">
+
+                                <option value="">
+
+                                    Selecione o toner
+
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- QUANTIDADE -->
+
+                        <div class="col-md-2">
+
+                            <label class="form-label">
+
+                                Quantidade
+
+                            </label>
+
+                            <input
+                                type="number"
+                                id="saida-quantidade"
+                                class="form-control"
+                                min="1"
+                                value="1">
+
+                        </div>
+
+                        <small
+                            id="saida-estoque-disponivel"
+                            class="text-muted">
+
+                            Estoque disponível: -
+
+                        </small>
+                        <!-- IP -->
+
+                        <div class="col-md-3">
+
+                            <label class="form-label">
+
+                                IP da impressora
+
+                            </label>
+
+                            <input
+                                type="text"
+                                id="saida-ip"
+                                class="form-control"
+                                placeholder="Ex.: 192.168.1.100">
+
+                        </div>
+
+
+                        <!-- PATRIMÔNIO -->
+
+                        <div class="col-md-3">
+
+                            <label class="form-label">
+
+                                Patrimônio
+
+                            </label>
+
+                            <input
+                                type="text"
+                                id="saida-patrimonio"
+                                class="form-control"
+                                placeholder="Ex.: 12345">
+                    
+
+                        </div>
+
+
+                        <!-- RESPONSÁVEL -->
+
+                        <div class="col-md-4">
+
+                            <label class="form-label">
+
+                                Responsável
+
+                            </label>
+
+                            <input
+                                type="text"
+                                id="saida-responsavel"
+                                class="form-control"
+                                placeholder="Nome do responsável">
+                    
+
+                        </div>
+
+
+                        <!-- OBSERVAÇÃO -->
+
+                        <div class="col-md-8">
+
+                            <label class="form-label">
+
+                                Observação
+
+                            </label>
+
+                            <input
+                                type="text"
+                                id="saida-observacao"
+                                class="form-control"
+                                placeholder="Ex.: Troca de toner">
+                        
+                        </div>
+
+
+                        
+                        
+                        
+                    </div>
+
+
+                    <div class="mt-4">
+
+
+                        <button
+                            class="btn btn-warning"
+                            onclick="salvarSaidaToner()">
+
+                            Registrar saída
+
+                        </button>
+
+
+                        <button
+                            class="btn btn-secondary"
+                            onclick="fecharSaidaToner()">
+
+                            Cancelar
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <!-- ======================================================
+                ÁREA DE PASTAS
+            ====================================================== -->
+
+            <div id="area-pastas">
+
+                <div class="cabecalho-lista">
+
+                    <h3 class="titulo-pastas">
+                          <img width="20" height="20" src="https://img.icons8.com/fluency-systems-regular/48/print.png" alt="print"/>
+                        Impressoras por setor
+                    </h3>
+
+                </div>
+
+
+                <div class="pastas">
+
+                    {% for grupo in grupos %}
+
+                    <button
+                        type="button"
+                        class="pastas"
+                        onclick="abrirPastas('{{ grupo }}')">
+
+                        📁
+
+                        <br>
+
+                        {{ grupo }}
+
+                    </button>
+
+                    {% endfor %}
+
+                </div>
+            </div>
+
+            <!--======================================================
+                LISTA DE IMPRESSORAS
+            ====================================================== -->
+
+            <div id="area-lista">
+
+                <div class="cabecalho-lista">
+
+                
+
+
+                    <h3 id="titulo-grupo">
+
+                        Impressoras
+
+                    </h3>
+
+
+
+                </div>
+
+
+
+                <!-- TABELA -->
+
+                <div class="tabela">
+
+
+                    <table
+                        id="tabela-impressoras"
+                        class="table table-striped table-hover align-middle">
+
+
+                        <thead class="table-dark">
+
+
+                            <tr>
+
+
+                                <th>
+                                    Modelo/Local
+                                </th>
+
+
+                                <th>
+                                    Patrimônio
+                                </th>
+
+
+                                <th>
+                                    IP
+                                </th>
+
+
+                                <th>
+                                    Ciano
+                                </th>
+
+
+                                <th>
+                                    Magenta
+                                </th>
+
+
+                                <th>
+                                    Amarelo
+                                </th>
+
+
+                                <th>
+                                    Preto
+                                </th>
+
+
+                                <th>
+                                    Status
+                                </th>
+
+
+                                <th>
+                                    Alerta
+                                </th>
+
+
+                            </tr>
+
+
+                        </thead>
+
+
+                        <tbody id="corpo-tabela-impressoras">
+
+
+                            {% for impressora in impressoras %}
+
+
+                            <tr
+
+                                data-grupo="{{ impressora.grupo }}"
+
+                                data-status="{{ impressora.status }}"
+
+                                data-ip="{{ impressora.ip }}"
+
+                                data-modelo="{{ impressora.modelo }}"
+
+                                data-patrimonio="{{ impressora.patrimonio }}"
+
+                                data-setor="{{ impressora.nome_planilha or impressora.modelo }}"
+
+                                role="button"
+
+                                tabindex="0"
+
+                                aria-label="Abrir ficha de {{ impressora.nome_planilha or impressora.modelo }}"
+
+                                onclick="abrirFichaImpressora(this)"
+
+                                onkeydown="abrirFichaImpressoraComTeclado(event, this)"
+
+                            >
+
+
+                                <td>
+
+                                    {{ impressora.modelo }}
+
+                                </td>
+
+
+                                <td>
+
+                                    {{ impressora.patrimonio }}
+
+                                </td>
+
+
+                                <td>
+
+                                    {{ impressora.ip }}
+
+                                </td>
+
+
+                                <!-- CIANO -->
+
+                                <td>
+
+
+                                    {% if impressora.status == "Online" and impressora.ciano != "-" %}
+
+
+                                    <div class="progress toner-bar" data-toner="ciano" >
+
+
+                                        <div
+                                            class="progress-bar bg-info"
+                                            style="width: {{ impressora.ciano }};">
+
+                                            {{ impressora.ciano }}
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                    {% elif impressora.status == "Online" %}
+
+                                    -
+
+                                    {% endif %}
+
+
+                                </td>
+
+
+                                <!-- MAGENTA -->
+
+                                <td>
+
+
+                                    {% if impressora.status == "Online" and impressora.magenta != "-" %}
+
+
+                                    <div class="progress toner-bar" data-toner="magenta" >
+
+
+                                        <div
+                                            class="progress-bar bg-danger"
+                                            style="width: {{ impressora.magenta }};">
+
+                                            {{ impressora.magenta }}
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                    {% elif impressora.status == "Online" %}
+
+                                    -
+
+                                    {% endif %}
+
+
+                                </td>
+
+
+                                <!-- AMARELO -->
+
+                                <td>
+
+
+                                    {% if impressora.status == "Online" and impressora.amarelo != "-" %}
+
+
+                                    <div class="progress toner-bar" data-toner="amarelo" >
+
+
+                                        <div
+                                            class="progress-bar bg-warning text-dark"
+                                            style="width: {{ impressora.amarelo }};">
+
+                                            {{ impressora.amarelo }}
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                    {% elif impressora.status == "Online" %}
+
+                                    -
+
+                                    {% endif %}
+
+
+                                </td>
+
+
+                                <!-- PRETO -->
+
+                                <td>
+
+
+                                    {% if impressora.status == "Online" and impressora.preto != "-" %}
+
+
+                                    <div class="progress toner-bar" data-toner="preto" >
+
+
+                                        <div
+                                            class="progress-bar bg-dark"
+                                            style="width: {{ impressora.preto }};">
+
+                                            {{ impressora.preto }}
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                    {% elif impressora.status == "Online" %}
+
+                                    -
+
+                                    {% endif %}
+
+
+                                </td>
+
+
+                                <!-- STATUS -->
+
+                                <td>
+
+
+                                    {% if impressora.status == "Online" %}
+
+
+                                    <span class="badge bg-success">
+
+                                        Online
+
+                                    </span>
+
+
+                                    {% else %}
+
+
+                                    <span class="badge bg-danger">
+
+                                        Offline
+
+                                    </span>
+
+
+                                    {% endif %}
+
+
+                                </td>
+
+
+                                <!-- ALERTA -->
+
+                                <td>
+
+
+                                    {% if impressora.status == "Online" and impressora.ciano != "-" and impressora.ciano[:-1]|int <= 20 %}
+
+
+                                    <span class="badge bg-danger">
+
+                                        🔴 Ciano baixo
+
+                                    </span>
+
+
+                                    {% elif impressora.status == "Online" and impressora.magenta != "-" and impressora.magenta[:-1]| int<=20%}
+
+                                    <span class="badge bg-danger">
+
+                                            🔴 Magenta baixo
+
+                                    </span>   
+
+
+                                    {% elif impressora.status == "Online" and impressora.amarelo != "-" and impressora.amarelo[:-1]|int <= 20 %}
+
+
+                                    <span class="badge bg-danger">
+
+                                        🔴 Amarelo baixo
+
+                                    </span>
+
+
+                                    {% elif impressora.status == "Online" and impressora.preto != "-" and impressora.preto[:-1]|int <= 20 %}
+
+
+                                    <span class="badge bg-danger">
+
+                                            🔴 Preto baixo
+
+                                    </span>
+
+
+                                    {% elif impressora.status == "Online" %}
+
+
+                                    <span class="badge bg-success">
+
+                                            🟢 OK
+
+                                    </span>
+
+
+                                    {% endif %}
+
+
+                                </td>
+
+
+                            </tr>
+
+
+                            {% endfor %}
+
+
+                        </tbody>
+
+
+                    </table>
+                    <!-- TABELA DE TONERS NÃO CONFIÁVEIS -->
+
+                    <div
+                        id="area-nao-confiaveis"
+                        style="display: none;">
+
+                        <table class="table table-striped table-hover align-middle">
+
+                            <thead class="table-dark">
+
+                                <tr>
+
+                                    <th>Modelo/Local</th>
+                                    <th>IP</th>
+                                    <th>Toner</th>
+                                    <th>Dias em 6%</th>
+                                    <th>Status</th>
+
+                                </tr>
+
+                            </thead>
+
+                            <tbody id="corpo-nao-confiaveis">
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+         
+       
+
+            <script
+                src="{{ url_for('static', filename='js/script.js') }}?v=4.0">
+            </script>
+
+    
+            
+        </div> <!-- FIM .conteudo-principal -->
+
+        <dialog
+            id="ficha-impressora"
+            class="ficha-impressora"
+            aria-labelledby="ficha-impressora-titulo">
+
+            <div class="ficha-impressora-cabecalho">
+                <div>
+                    <p>Detalhes do equipamento</p>
+                    <h2 id="ficha-impressora-titulo">Impressora</h2>
+                </div>
+                <button
+                    type="button"
+                    class="ficha-impressora-fechar"
+                    onclick="fecharFichaImpressora()"
+                    aria-label="Fechar ficha">×</button>
+            </div>
+
+            <div class="ficha-impressora-dados">
+                <div class="ficha-impressora-campo">
+                    <span>Setor / local</span>
+                    <strong id="ficha-impressora-setor">-</strong>
+                </div>
+                <div class="ficha-impressora-campo">
+                    <span>Endereço IP</span>
+                    <strong id="ficha-impressora-ip">-</strong>
+                </div>
+                <div class="ficha-impressora-campo">
+                    <span>Patrimônio</span>
+                    <strong id="ficha-impressora-patrimonio">-</strong>
+                </div>
+                <div class="ficha-impressora-campo">
+                    <span>Modelo da impressora</span>
+                    <strong id="ficha-impressora-modelo">-</strong>
+                </div>
+                <div class="ficha-impressora-campo">
+                    <span>Status</span>
+                    <strong id="ficha-impressora-status">-</strong>
+                </div>
+                <div class="ficha-impressora-campo">
+                    <span>Modelo do toner compatível</span>
+                    <div id="ficha-impressora-toner">Consultando cadastro...</div>
+                </div>
+                <div class="ficha-impressora-campo ficha-impressora-contador">
+                    <span>Contagem de páginas (SNMP)</span>
+                    <strong id="ficha-impressora-contador" aria-live="polite">
+                        Consultando impressora...
+                    </strong>
+                </div>
+            </div>
+
+            <p
+                id="ficha-impressora-mensagem"
+                class="ficha-impressora-mensagem"
+                role="status"></p>
+
+        </dialog>
+
+    </body>
+
+</html>

@@ -1,6 +1,7 @@
 import asyncio
 import json
 import logging
+import re
 import sqlite3
 from datetime import datetime
 from pathlib import Path
@@ -20,6 +21,7 @@ from estoque import (
     ajustar_estoque_manual,
 )
 from suprimentos_snmp import (
+    consultar_contador_paginas,
     historico_toner_6,
     obter_impressoras,
     verificar_toners_nao_confiaveis,
@@ -87,24 +89,10 @@ def carregar_lista_impressoras():
         ip = str(ip).strip()
         nome = str(nome).strip()
 
-        # --------------------------------------------------
-        # O GRUPO É O TEXTO ANTES DO PRIMEIRO "-"
-        #
-        # Exemplo:
-        # SEMAD - Almoxarifado
-        #
-        # vira:
-        # SEMAD
-        # --------------------------------------------------
-        #Pega somente o código antes do primeiro "-"
         if "-" in nome:
-
             grupo = nome.split("-", 1)[0].strip().upper()
-
         else:
-
-            grupo = nome.strip().upper()
-
+            grupo = "OUTRAS"
 
         lista.append({
 
@@ -162,25 +150,7 @@ def adicionar_grupos(impressoras):
         #    TENTA PELO MODELO/NOME
         # ==================================================
 
-        nome = str(
-            impressora.get("modelo", "")
-        ).strip()
-
-        if "-" in nome:
-
-            impressora ["grupo"] = nome.split(
-                "-",
-                1)[0].strip().upper()
-        elif nome:
-            impressora["grupo"]=(
-                nome.split()
-                [0].strip().upper()
-            )
-
-        else:
-
-            impressora["grupo"]= "OUTROS"
-            impressora["nome_planilha"] = nome
+        impressora["grupo"] = "OUTRAS"
 
     return impressoras
 
@@ -216,7 +186,7 @@ def index():
     # Descobre automaticamente os grupos existentes
     grupos = sorted(
         set(
-            impressora.get("grupo","OUTROS")
+            impressora.get("grupo", "OUTRAS")
             for impressora in impressoras
         )
     )
@@ -258,6 +228,75 @@ def dados():
     return jsonify(
         impressoras
     )
+
+
+@app.route("/api/impressoras/<ip>/contador")
+def contador_paginas_impressora(ip):
+
+    cadastro = next(
+        (
+            item
+            for item in carregar_lista_impressoras()
+            if item["ip"] == ip
+        ),
+        None
+    )
+
+    if cadastro is None:
+        return jsonify({
+            "erro": "Impressora não encontrada no cadastro."
+        }), 404
+
+    modelo_tokens = {
+        token
+        for token in re.findall(
+            r"[A-Z0-9]+",
+            cadastro["nome"].upper()
+        )
+        if any(caractere.isdigit() for caractere in token)
+    }
+
+    toners_compativeis = []
+    for toner in listar_toners():
+        toner_tokens = {
+            token
+            for token in re.findall(
+                r"[A-Z0-9]+",
+                toner["modelos_compativeis"].upper()
+            )
+            if any(caractere.isdigit() for caractere in token)
+        }
+
+        if modelo_tokens.intersection(toner_tokens):
+            toners_compativeis.append({
+                "marca": toner["marca"],
+                "codigo": toner["codigo"],
+                "cor": toner["cor"]
+            })
+
+    try:
+        contador = asyncio.run(
+            consultar_contador_paginas(ip)
+        )
+    except RuntimeError as erro:
+        logger.warning(
+            "Não foi possível consultar o contador SNMP da impressora %s: %s",
+            ip,
+            erro
+        )
+        return jsonify({
+            "contador": None,
+            "oid": None,
+            "toners": toners_compativeis,
+            "erro": str(erro)
+        })
+
+    return jsonify({
+        "contador": contador["contador"],
+        "oid": contador["oid"],
+        "toners": toners_compativeis
+    })
+
 
 # ==========================================================
 # ESTOQUE DE TONERS
@@ -497,6 +536,7 @@ def historico():
             m.quantidade,
             m.ip_impressora,
             m.patrimonio,
+            m.local_impressora,
             m.responsavel,
             m.observacao,
 
@@ -583,6 +623,7 @@ def historico():
             m.quantidade,
             m.ip_impressora,
             m.patrimonio,
+            m.local_impressora,
             m.responsavel,
             m.observacao,
             t.marca,
@@ -611,6 +652,7 @@ def historico():
             "quantidade": registro["quantidade"],
             "ip_impressora": registro["ip_impressora"] or "-",
             "patrimonio": registro["patrimonio"] or "-",
+            "local_impressora": registro["local_impressora"] or "-",
             "responsavel": registro["responsavel"] or "-",
             "observacao": registro["observacao"] or "-"
     })

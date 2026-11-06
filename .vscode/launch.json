@@ -5,10 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "debugpy",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\Users\\elis.coutinho\\impressoras teste\\templates\\index.html"
+            "name": "Executar aplicação Flask",
+            "program": "${workspaceFolder}\\app.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
         }
     ]
 }
